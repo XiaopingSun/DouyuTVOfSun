@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC5C3AAE2133ACDD00A75538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5C3AAD2133ACDD00A75538 /* AppDelegate.swift */; };
-		CC5C3AB02133ACDD00A75538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5C3AAF2133ACDD00A75538 /* ViewController.swift */; };
 		CC5C3AB32133ACDD00A75538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5C3AB12133ACDD00A75538 /* Main.storyboard */; };
 		CC5C3AB52133ACDE00A75538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5C3AB42133ACDE00A75538 /* Assets.xcassets */; };
 		CC5C3AB82133ACDE00A75538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5C3AB62133ACDE00A75538 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		CC5C3AAA2133ACDD00A75538 /* DouyuTVOfSun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyuTVOfSun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5C3AAD2133ACDD00A75538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC5C3AAF2133ACDD00A75538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC5C3AB22133ACDD00A75538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC5C3AB42133ACDE00A75538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC5C3AB72133ACDE00A75538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,69 @@
 		CC5C3AAC2133ACDD00A75538 /* DouyuTVOfSun */ = {
 			isa = PBXGroup;
 			children = (
+				CC5C3AC6213404A900A75538 /* Class */,
 				CC5C3AAD2133ACDD00A75538 /* AppDelegate.swift */,
-				CC5C3AAF2133ACDD00A75538 /* ViewController.swift */,
 				CC5C3AB12133ACDD00A75538 /* Main.storyboard */,
 				CC5C3AB42133ACDE00A75538 /* Assets.xcassets */,
 				CC5C3AB62133ACDE00A75538 /* LaunchScreen.storyboard */,
 				CC5C3AB92133ACDE00A75538 /* Info.plist */,
 			);
 			path = DouyuTVOfSun;
+			sourceTree = "<group>";
+		};
+		CC5C3AC6213404A900A75538 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CC5C3AC7213404A900A75538 /* Home */,
+				CC5C3AC8213404A900A75538 /* Tools */,
+				CC5C3AC9213404A900A75538 /* Follow */,
+				CC5C3ACA213404A900A75538 /* Profile */,
+				CC5C3ACB213404A900A75538 /* Live */,
+				CC5C3ACC213404A900A75538 /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CC5C3AC7213404A900A75538 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CC5C3AC8213404A900A75538 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CC5C3AC9213404A900A75538 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		CC5C3ACA213404A900A75538 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CC5C3ACB213404A900A75538 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		CC5C3ACC213404A900A75538 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC5C3AB02133ACDD00A75538 /* ViewController.swift in Sources */,
 				CC5C3AAE2133ACDD00A75538 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
