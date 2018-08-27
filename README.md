@@ -1,2 +1,2 @@
 # DouyuTVOfSun
-模仿斗鱼直播
+A swift project for practicing
