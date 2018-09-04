@@ -19,11 +19,25 @@ class HomeViewController: UIViewController {
         return titleView
     }()
     
+    private lazy var pageContentView: PageContentView = {
+        let contentH = kScreenHeight - kStatusBarH - kNavigationBarH - kTitleViewH
+        let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + kTitleViewH, width: kScreenWidth, height: contentH)
+        
+        var childVCs = [UIViewController]()
+        for _ in 0..<4 {
+            let viewController = UIViewController()
+            viewController.view.backgroundColor = UIColor(r: CGFloat(arc4random() % 255), g: CGFloat(arc4random() % 255), b: CGFloat(arc4random() % 255))
+            childVCs.append(viewController)
+        }
+        let pageContentView = PageContentView(frame: contentFrame, childViewControllers: childVCs, parentViewController: self)
+        return pageContentView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         automaticallyAdjustsScrollViewInsets = false
-        setupUI()
+        setupUI() 
     }
 }
 
@@ -36,6 +50,9 @@ extension HomeViewController {
         
         // 2.添加titleView
          view.addSubview(pageTitleView)
+        
+        // 3.添加contentView
+        view.addSubview(pageContentView)
     }
     
     private func setupNavigationBar() {
