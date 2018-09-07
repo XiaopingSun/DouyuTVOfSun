@@ -1,0 +1,121 @@
+2018/09/03 15:08:22:311 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-Recorder init:0x1c01a5be0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/09/03 15:08:22:314 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/09/03 15:08:22:933 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/09/03 15:08:23:044 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-Recorder camera authorizeation status: not determined -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:379
+2018/09/03 15:08:23:048 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-Recorder microphone authorizeation status: not determined -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:448
+2018/09/03 15:08:23:507 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/09/03 15:08:25:566 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-GLKView become active start render -[PLSGLKView handleApplicationDidBecomeActive:] PLSGLKView.m:757
+2018/09/03 15:08:25:566 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-MirrorWatermarkProcessor mirrorwatermark applicationDidBecomeActive -[PLSMirrorWatermarkProcessor handleApplicationDidBecomeActive:] PLSMirrorWatermarkProcessor.m:738
+2018/09/03 15:08:25:567 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:325
+2018/09/03 15:08:25:567 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:325
+2018/09/03 15:08:26:034 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/09/03 15:08:26:557 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-GLKView become active start render -[PLSGLKView handleApplicationDidBecomeActive:] PLSGLKView.m:757
+2018/09/03 15:08:26:557 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:325
+2018/09/03 15:08:26:557 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:325
+2018/09/03 15:08:26:800 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/09/03 15:08:27:221 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/09/03 15:08:27:614 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/09/03 15:08:27:896 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-GLKView become active start render -[PLSGLKView handleApplicationDidBecomeActive:] PLSGLKView.m:757
+2018/09/03 15:08:27:897 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:325
+2018/09/03 15:08:27:897 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:325
+2018/09/03 15:08:30:313 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/09/03 15:08:30:377 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/09/03 15:08:31:410 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/09/03 15:08:31:866 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/09/03 15:08:54:579 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-AVAssetExportSession 0XX 10 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:] PLSAVAssetExportSession.m:1065
+2018/09/03 15:09:03:740 PLShortVideoKitDemo[384:16352] [D] Pili-ShortVideo-AVAssetExportSession 0XX 11 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke PLSAVAssetExportSession.m:1070
+2018/09/03 15:09:03:847 PLShortVideoKitDemo[384:16352] [D] Pili-ShortVideo-AVAssetExportSession 0XX 12 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1080
+2018/09/03 15:09:03:847 PLShortVideoKitDemo[384:16352] [D] Pili-ShortVideo-AVAssetExportSession temp outputURL: file:///var/mobile/Containers/Data/Application/EADB9B11-5F02-43B6-BC89-40FA1B6FD748/Documents/PLShortVideoRootFolder/PLShortVideo/20180903150854547merge.mov -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:] PLSAVAssetExportSession.m:723
+2018/09/03 15:09:03:870 PLShortVideoKitDemo[384:16352] [D] Pili-ShortVideo-AVAssetExportSession 0XX 13 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1084
+2018/09/03 15:09:04:131 PLShortVideoKitDemo[384:16355] [D] Pili-ShortVideo-AVAssetExportSession outputURL: file:///var/mobile/Containers/Data/Application/EADB9B11-5F02-43B6-BC89-40FA1B6FD748/Documents/PLShortVideoRootFolder/PLShortVideo/20180903150903848merge.mp4 -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:764
+2018/09/03 15:09:04:131 PLShortVideoKitDemo[384:16355] [D] Pili-ShortVideo-AVAssetExportSession exportSessionStatusCompleted -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:770
+2018/09/03 15:09:04:424 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-AVAssetExportSession export movie to PhotosAlbum -[PLSAVAssetExportSession movie:didFinishSavingWithError:contextInfo:] PLSAVAssetExportSession.m:251
+2018/09/03 15:09:04:464 PLShortVideoKitDemo[384:15336] [D] Pili-ShortVideo-AVAssetExportSession dealloc: PLSAVAssetExportSession -[PLSAVAssetExportSession dealloc] PLSAVAssetExportSession.m:1438
+2018/09/03 15:22:19:224 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-Recorder init:0x1c01b4820 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/09/03 15:22:19:227 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/09/03 15:22:19:571 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/09/03 15:22:19:613 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/09/03 15:22:19:634 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/09/03 15:22:20:203 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/09/03 15:22:20:353 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/09/03 15:22:20:414 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/09/03 15:22:22:873 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/09/03 15:22:23:324 PLShortVideoKitDemo[442:21992] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/09/03 15:46:43:845 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-Recorder init:0x1c01b2360 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/09/03 15:46:43:849 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/09/03 15:46:44:207 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/09/03 15:46:44:248 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/09/03 15:46:44:269 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/09/03 15:46:44:840 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/09/03 15:46:44:976 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/09/03 15:46:45:037 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/09/03 15:46:46:383 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/09/03 15:46:46:828 PLShortVideoKitDemo[488:29648] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/09/03 17:22:44:807 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Recorder init:0x1c41bc380 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/09/03 17:22:44:811 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/09/03 17:22:44:866 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/09/03 17:22:44:906 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/09/03 17:22:44:939 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/09/03 17:22:45:809 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/09/03 17:22:45:962 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/09/03 17:22:46:017 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/09/03 17:22:47:229 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Recorder cancelRecording -[PLShortVideoRecorder cancelRecording]_block_invoke PLShortVideoRecorder.m:608
+2018/09/03 17:22:47:229 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Recorder deleteAllFiles -[PLShortVideoRecorder deleteAllFiles]_block_invoke PLShortVideoRecorder.m:683
+2018/09/03 17:22:47:232 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/09/03 17:22:47:402 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/09/03 17:22:47:806 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/09/03 17:22:48:319 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-PixelBufferRotateProcessor dealloc:0x1c01d3bf0 -[PLSCVPixelBufferRotateProcessor dealloc] PLSCVPixelBufferRotateProcessor.m:471
+2018/09/03 17:22:48:322 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-PixelBufferRotateProcessor dealloc:0x1c01d3b00 -[PLSCVPixelBufferRotateProcessor dealloc] PLSCVPixelBufferRotateProcessor.m:471
+2018/09/03 17:22:48:323 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-CameraSource dealloc: PLSCameraSource -[PLSCameraSource dealloc] PLSCameraSource.m:1198
+2018/09/03 17:22:48:331 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-MicrophoneSource dealloc: PLSMicrophoneSource -[PLSMicrophoneSource dealloc] PLSMicrophoneSource.m:119
+2018/09/03 17:22:48:334 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Encoder dealloc: PLSEncoder -[PLSEncoder dealloc] PLSEncoder.m:286
+2018/09/03 17:22:48:334 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Recorder dealloc:0x1c41bc380 -[PLShortVideoRecorder dealloc] PLShortVideoRecorder.m:1796
+2018/09/03 17:22:48:336 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/09/03 17:22:48:341 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-GLKView dealloc:0x102e488f0 -[PLSGLKView dealloc] PLSGLKView.m:779
+2018/09/03 17:22:48:341 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusView -[PLSFocusView dealloc] PLSFocusView.m:139
+2018/09/03 17:22:48:341 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/09/03 17:24:06:290 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-PLSRangeMovieExport init: <PLSRangeMovieExport: 0x1c04c23e0> -[PLSRangeMovieExport initWithRangeMedia:] PLSRangeMovieExport.m:44
+2018/09/03 17:24:26:032 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-EditPlayer dealloc: PLSEditPlayer -[PLSEditPlayer dealloc] PLSEditPlayer.m:1039
+2018/09/03 17:24:26:033 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-ShortVideoEditor dealloc: PLShortVideoEditor -[PLShortVideoEditor dealloc] PLShortVideoEditor.m:673
+2018/09/03 17:24:26:043 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/09/03 17:24:27:069 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-PLSRangeMovieExport dealloc: <PLSRangeMovieExport: 0x1c04c23e0> -[PLSRangeMovieExport dealloc] PLSRangeMovieExport.m:38
+2018/09/03 17:24:27:096 PLShortVideoKitDemo[682:67484] [D] Pili-ShortVideo-ShortVideoExporter dealloc: PLShortVideoExporter -[PLShortVideoExporter dealloc] PLShortVideoExporter.m:419
+2018/09/03 17:24:46:662 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-PLSRangeMovieExport init: <PLSRangeMovieExport: 0x1c02dfcd0> -[PLSRangeMovieExport initWithRangeMedia:] PLSRangeMovieExport.m:44
+2018/09/03 17:25:11:403 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-EditPlayer dealloc: PLSEditPlayer -[PLSEditPlayer dealloc] PLSEditPlayer.m:1039
+2018/09/03 17:25:11:415 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-ShortVideoEditor dealloc: PLShortVideoEditor -[PLShortVideoEditor dealloc] PLShortVideoEditor.m:673
+2018/09/03 17:25:11:420 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/09/03 17:25:12:381 PLShortVideoKitDemo[682:67166] [D] Pili-ShortVideo-PLSRangeMovieExport dealloc: <PLSRangeMovieExport: 0x1c02dfcd0> -[PLSRangeMovieExport dealloc] PLSRangeMovieExport.m:38
+2018/09/03 17:25:12:403 PLShortVideoKitDemo[682:68282] [D] Pili-ShortVideo-ShortVideoExporter dealloc: PLShortVideoExporter -[PLShortVideoExporter dealloc] PLShortVideoExporter.m:419
+2018/09/04 11:53:08:701 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-Recorder init:0x1c01b7ca0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/09/04 11:53:08:705 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/09/04 11:53:09:135 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/09/04 11:53:09:200 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/09/04 11:53:09:296 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/09/04 11:53:09:936 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/09/04 11:53:10:324 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/09/04 11:53:10:373 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/09/04 11:53:11:367 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/09/04 11:53:11:809 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/09/04 11:53:24:710 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-EditPlayer dealloc: PLSEditPlayer -[PLSEditPlayer dealloc] PLSEditPlayer.m:1039
+2018/09/04 11:53:24:712 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-ShortVideoEditor dealloc: PLShortVideoEditor -[PLShortVideoEditor dealloc] PLShortVideoEditor.m:673
+2018/09/04 11:53:24:716 PLShortVideoKitDemo[1072:283472] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/09/04 11:55:06:549 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-Recorder init:0x1c01bce00 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/09/04 11:55:06:552 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/09/04 11:55:07:060 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/09/04 11:55:07:159 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/09/04 11:55:07:195 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/09/04 11:55:07:784 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/09/04 11:55:07:952 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/09/04 11:55:08:003 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/09/04 11:55:10:286 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/09/04 11:55:10:747 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/09/04 11:55:45:081 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-AVAssetExportSession 0XX 10 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:] PLSAVAssetExportSession.m:1065
+2018/09/04 11:55:46:403 PLShortVideoKitDemo[1079:285253] [D] Pili-ShortVideo-AVAssetExportSession 0XX 11 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke PLSAVAssetExportSession.m:1070
+2018/09/04 11:55:46:491 PLShortVideoKitDemo[1079:285253] [D] Pili-ShortVideo-AVAssetExportSession 0XX 12 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1080
+2018/09/04 11:55:46:492 PLShortVideoKitDemo[1079:285253] [D] Pili-ShortVideo-AVAssetExportSession temp outputURL: file:///var/mobile/Containers/Data/Application/57648C93-B830-4F6A-94D8-00C8272DC9C7/Documents/PLShortVideoRootFolder/PLShortVideo/20180904115544599merge.mov -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:] PLSAVAssetExportSession.m:723
+2018/09/04 11:55:46:505 PLShortVideoKitDemo[1079:285253] [D] Pili-ShortVideo-AVAssetExportSession 0XX 13 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1084
+2018/09/04 11:55:46:562 PLShortVideoKitDemo[1079:285253] [D] Pili-ShortVideo-AVAssetExportSession outputURL: file:///var/mobile/Containers/Data/Application/57648C93-B830-4F6A-94D8-00C8272DC9C7/Documents/PLShortVideoRootFolder/PLShortVideo/20180904115546492merge.mp4 -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:764
+2018/09/04 11:55:46:564 PLShortVideoKitDemo[1079:285253] [D] Pili-ShortVideo-AVAssetExportSession exportSessionStatusCompleted -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:770
+2018/09/04 11:55:47:228 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-AVAssetExportSession export movie to PhotosAlbum -[PLSAVAssetExportSession movie:didFinishSavingWithError:contextInfo:] PLSAVAssetExportSession.m:251
+2018/09/04 11:55:47:263 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-AVAssetExportSession dealloc: PLSAVAssetExportSession -[PLSAVAssetExportSession dealloc] PLSAVAssetExportSession.m:1438
+2018/09/04 11:55:54:310 PLShortVideoKitDemo[1079:284924] [D] Pili-ShortVideo-ShortVideoUploader dealloc: PLShortVideoUploader -[PLShortVideoUploader dealloc] PLShortVideoUploader.m:123

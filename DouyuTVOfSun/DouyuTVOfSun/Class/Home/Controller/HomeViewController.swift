@@ -11,25 +11,30 @@ import UIKit
 private let kTitleViewH: CGFloat = 40
 
 class HomeViewController: UIViewController {
+    
+    private lazy var recommendVM: RecommendViewModel = RecommendViewModel()
 
-    private lazy var pageTitleView: PageTitleView = {
+    private lazy var pageTitleView: PageTitleView = {[weak self] in
         let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenWidth, height: kTitleViewH)
         let titles = ["推荐", "游戏", "娱乐", "趣玩"]
         let titleView = PageTitleView(frame: titleFrame, titles: titles)
+        titleView.delegate = self
         return titleView
     }()
     
-    private lazy var pageContentView: PageContentView = {
-        let contentH = kScreenHeight - kStatusBarH - kNavigationBarH - kTitleViewH
+    private lazy var pageContentView: PageContentView = {[weak self] in
+        let contentH = kScreenHeight - kStatusBarH - kNavigationBarH - kTitleViewH - kTabbarH
         let contentFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH + kTitleViewH, width: kScreenWidth, height: contentH)
         
         var childVCs = [UIViewController]()
-        for _ in 0..<4 {
+        childVCs.append(RecommendViewController())
+        for _ in 0..<3 {
             let viewController = UIViewController()
             viewController.view.backgroundColor = UIColor(r: CGFloat(arc4random() % 255), g: CGFloat(arc4random() % 255), b: CGFloat(arc4random() % 255))
             childVCs.append(viewController)
         }
         let pageContentView = PageContentView(frame: contentFrame, childViewControllers: childVCs, parentViewController: self)
+        pageContentView.delegate = self
         return pageContentView
     }()
     
@@ -37,7 +42,8 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         automaticallyAdjustsScrollViewInsets = false
-        setupUI() 
+        setupUI()
+        loadData()
     }
 }
 
@@ -69,3 +75,26 @@ extension HomeViewController {
         navigationItem.rightBarButtonItems = [historyItem, searchItem, QRCodeItem]
     }
 }
+
+// 请求数据
+extension HomeViewController {
+    private func loadData() {
+        recommendVM.requestData()
+    }
+}
+
+// PageTitleViewDelegate
+extension HomeViewController: PageTitleViewDelegate {
+    func pageTitleView(titleView: PageTitleView, selectedIndex index: Int) {
+        pageContentView.setCurrentIndex(currentIndex: index)
+    }
+}
+
+// PageContentViewDelegate
+extension HomeViewController: PageContentViewDelegate {
+    func pageContentView(contentView: PageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int) {
+        pageTitleView.setTitleWithProgress(progress: progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
+    }
+}
+
+

@@ -1,0 +1,36 @@
+2018/09/04 11:55:46:761 [I] Player SDKID : CC9BEB88-B08C-4C56-A028-A348D2C875D6 -[PLPlayer configOption] 783
+2018/09/04 11:55:46:761 [I] PLPlayerKit Version: 3.3.1-git-2018-05-21-2956ccf，Core Version: 1.1.0.68 void printAllVersion(NSString *__strong) 44
+2018/09/04 11:55:46:764 [I] player change size: () -[PLPlayer observeValueForKeyPath:ofObject:change:context:] 1391
+2018/09/04 11:55:46:790 [I] player change size: () -[PLPlayer observeValueForKeyPath:ofObject:change:context:] 1391
+2018/09/04 11:55:47:349 [I] PLPlayer stop -[PLPlayer stop] 1060
+2018/09/04 11:55:47:349 [I] Player create qplayer -[PLPlayer openQPlayer:sameSourceMode:] 820
+2018/09/04 11:55:47:349 [I] play url:file:///var/mobile/Containers/Data/Application/57648C93-B830-4F6A-94D8-00C8272DC9C7/Documents/PLShortVideoRootFolder/PLShortVideo/20180904115546492merge.mp4 -[PLPlayer openQPlayer:sameSourceMode:] 894
+2018/09/04 11:55:47:349 [I] Player open qplayer start -[PLPlayer openQPlayer:sameSourceMode:] 902
+2018/09/04 11:55:47:350 [I] player status change to (1) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/09/04 11:55:47:369 [I] Player open down qplayer -[PLPlayer onPlayerEvent:withParam:] 333
+2018/09/04 11:55:47:369 [I] Player run qplayer -[PLPlayer onPlayerEvent:withParam:] 342
+2018/09/04 11:55:47:378 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:47:379 [I] player status change to (2) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/09/04 11:55:47:385 [I] Player run qplayer finish -[PLPlayer onPlayerEvent:withParam:] 347
+2018/09/04 11:55:47:412 [I] player video size (544 x 960) -> (544 x 960) -[PLPlayer getVideoSize:] 1169
+2018/09/04 11:55:47:421 [I] player status change to (5) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/09/04 11:55:47:422 [I] PLPlayer: warning delegate method <PlayViewController: 0x101fe24c0> not implement -[PLPlayer firstRenderComing:] 1266
+2018/09/04 11:55:47:422 [I] PLPlayer: warning delegate method <PlayViewController: 0x101fe24c0> not implement -[PLPlayer firstRenderComing:] 1266
+2018/09/04 11:55:47:879 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:48:380 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:48:879 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:49:379 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:49:879 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:50:379 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:50:879 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:51:380 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:51:879 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:52:379 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:52:880 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:53:379 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:53:881 [I] player totalDurationSecond: 1.950000, longDuration = 1950 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:54:282 [I] PLPlayer stop -[PLPlayer stop] 1060
+2018/09/04 11:55:54:310 [I] player status change to (7) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/09/04 11:55:54:311 [I] Player dealloc : file:///var/mobile/Containers/Data/Application/57648C93-B830-4F6A-94D8-00C8272DC9C7/Documents/PLShortVideoRootFolder/PLShortVideo/20180904115546492merge.mp4 -[PLPlayer dealloc] 792
+2018/09/04 11:55:54:311 [I] Player destroyed -[PLPlayer destroyPlayer] 805
+2018/09/04 11:55:54:362 [I] Player dealloc finshed -[PLPlayer dealloc] 800

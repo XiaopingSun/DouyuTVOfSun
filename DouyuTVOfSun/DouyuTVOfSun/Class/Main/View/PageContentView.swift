@@ -8,17 +8,27 @@
 
 import UIKit
 
+protocol PageContentViewDelegate: class {
+    func pageContentView(contentView: PageContentView, progress: CGFloat, sourceIndex: Int, targetIndex: Int)
+}
+
 private let cellIdentifier: String = "cellIdentifier"
 
 class PageContentView: UIView {
     
     private var childViewControllers: [UIViewController]
     
-    private var parentViewController: UIViewController
+    private weak var parentViewController: UIViewController?
     
-    private lazy var collectionView: UICollectionView = {
+    weak var delegate: PageContentViewDelegate?
+    
+    private var startOffsetX: CGFloat = 0
+    
+    private var isForbidScrollDelegate: Bool = false
+    
+    private lazy var collectionView: UICollectionView = {[weak self] in
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = self.bounds.size
+        layout.itemSize = (self?.bounds.size)!
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         layout.scrollDirection = .horizontal
@@ -28,12 +38,13 @@ class PageContentView: UIView {
         collectionView.isPagingEnabled = true
         collectionView.bounces = false
         collectionView.dataSource = self
+        collectionView.delegate = self
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: cellIdentifier)
         
         return collectionView
     }()
 
-    init(frame: CGRect, childViewControllers: [UIViewController], parentViewController: UIViewController) {
+    init(frame: CGRect, childViewControllers: [UIViewController], parentViewController: UIViewController?) {
         self.childViewControllers = childViewControllers
         self.parentViewController = parentViewController
         super.init(frame:frame)
@@ -50,7 +61,7 @@ extension PageContentView {
     
     private func setupUI() {
         for childViewController in childViewControllers {
-            parentViewController.addChildViewController(childViewController)
+            parentViewController?.addChildViewController(childViewController)
         }
         
         addSubview(collectionView)
@@ -76,6 +87,57 @@ extension PageContentView: UICollectionViewDataSource {
         cell.contentView.addSubview(childVC.view)
         
         return cell
+    }
+}
+
+extension PageContentView: UICollectionViewDelegate {
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        isForbidScrollDelegate = false
+        startOffsetX = scrollView.contentOffset.x
+    }
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if isForbidScrollDelegate { return }
+        
+        var progress: CGFloat = 0
+        var sourceIndex: Int = 0
+        var targetIndex: Int = 0
+        
+        // 判断左滑还是右滑
+        let currentOffsetX = scrollView.contentOffset.x
+        let scrollViewWidth = scrollView.frame.width
+        if currentOffsetX > startOffsetX { // 左滑
+            progress = currentOffsetX / scrollViewWidth - floor(currentOffsetX / scrollViewWidth)
+            sourceIndex = Int(currentOffsetX / scrollViewWidth)
+            targetIndex = sourceIndex + 1
+            
+            if targetIndex >= childViewControllers.count {
+                targetIndex = childViewControllers.count - 1
+            }
+            
+            if currentOffsetX - startOffsetX == scrollViewWidth {
+                progress = 1
+                targetIndex = sourceIndex
+            }
+        } else { // 右滑
+            progress = 1 - (currentOffsetX / scrollViewWidth - floor(currentOffsetX / scrollViewWidth))
+            targetIndex = Int(currentOffsetX / scrollViewWidth)
+            sourceIndex = targetIndex + 1
+            if sourceIndex >= childViewControllers.count {
+                sourceIndex = childViewControllers.count - 1
+            }
+        }
+        
+        // 传递给titleView
+        delegate?.pageContentView(contentView: self, progress: progress, sourceIndex: sourceIndex, targetIndex: targetIndex)
+    }
+}
+
+// 对外暴露的方法
+extension PageContentView {
+    func setCurrentIndex(currentIndex: Int) {
+        isForbidScrollDelegate = true
+        let offsetX = CGFloat(currentIndex) * collectionView.frame.width
+        collectionView.setContentOffset(CGPoint(x: offsetX, y: 0), animated: true)
     }
 }
 

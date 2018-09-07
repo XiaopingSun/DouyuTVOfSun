@@ -1,0 +1,127 @@
+2018/09/03 15:09:04:258 [I] Player SDKID : CC9BEB88-B08C-4C56-A028-A348D2C875D6 -[PLPlayer configOption] 783
+2018/09/03 15:09:04:258 [I] PLPlayerKit Version: 3.3.1-git-2018-05-21-2956ccf，Core Version: 1.1.0.68 void printAllVersion(NSString *__strong) 44
+2018/09/03 15:09:04:260 [I] player change size: () -[PLPlayer observeValueForKeyPath:ofObject:change:context:] 1391
+2018/09/03 15:09:04:292 [I] player change size: () -[PLPlayer observeValueForKeyPath:ofObject:change:context:] 1391
+2018/09/03 15:09:04:867 [I] PLPlayer stop -[PLPlayer stop] 1060
+2018/09/03 15:09:04:868 [I] Player create qplayer -[PLPlayer openQPlayer:sameSourceMode:] 820
+2018/09/03 15:09:04:868 [I] play url:file:///var/mobile/Containers/Data/Application/EADB9B11-5F02-43B6-BC89-40FA1B6FD748/Documents/PLShortVideoRootFolder/PLShortVideo/20180903150903848merge.mp4 -[PLPlayer openQPlayer:sameSourceMode:] 894
+2018/09/03 15:09:04:868 [I] Player open qplayer start -[PLPlayer openQPlayer:sameSourceMode:] 902
+2018/09/03 15:09:04:869 [I] player status change to (1) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/09/03 15:09:04:913 [I] Player open down qplayer -[PLPlayer onPlayerEvent:withParam:] 333
+2018/09/03 15:09:04:913 [I] Player run qplayer -[PLPlayer onPlayerEvent:withParam:] 342
+2018/09/03 15:09:04:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:04:919 [I] player status change to (2) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/09/03 15:09:04:956 [I] player video size (544 x 960) -> (544 x 960) -[PLPlayer getVideoSize:] 1169
+2018/09/03 15:09:04:969 [I] player status change to (5) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/09/03 15:09:04:970 [I] PLPlayer: warning delegate method <PlayViewController: 0x141ec6d40> not implement -[PLPlayer firstRenderComing:] 1266
+2018/09/03 15:09:05:043 [I] Player run qplayer finish -[PLPlayer onPlayerEvent:withParam:] 347
+2018/09/03 15:09:05:044 [I] PLPlayer: warning delegate method <PlayViewController: 0x141ec6d40> not implement -[PLPlayer firstRenderComing:] 1266
+2018/09/03 15:09:05:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:05:921 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:06:421 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:06:921 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:07:421 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:07:921 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:08:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:08:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:09:421 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:09:921 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:10:421 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:10:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:11:421 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:11:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:12:421 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:12:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:13:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:13:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:14:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:14:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:15:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:15:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:16:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:16:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:17:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:17:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:18:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:18:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:19:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:19:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:20:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:20:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:21:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:21:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:22:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:22:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:23:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:23:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:24:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:24:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:25:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:25:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:26:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:26:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:27:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:27:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:28:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:28:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:29:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:29:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:30:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:30:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:31:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:31:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:32:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:32:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:33:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:33:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:34:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:34:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:35:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:35:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:36:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:36:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:37:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:37:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:38:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:38:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:39:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:39:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:40:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:40:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:41:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:41:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:42:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:42:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:43:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:43:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:44:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:44:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:45:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:45:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:46:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:46:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:47:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:47:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:48:420 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:48:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:49:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:49:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:50:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:50:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:51:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:51:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:52:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:52:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:53:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:53:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:54:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:54:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:55:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:55:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:56:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:56:920 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:57:419 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/03 15:09:57:919 [I] player totalDurationSecond: 25.621000, longDuration = 25621 -[PLPlayer totalDuration] 194
+2018/09/04 11:55:46:713 [I] Player create qplayer -[PLPlayer createPlayer] 710
+2018/09/04 11:55:46:759 [I] plplayer version: 16842820 -[PLPlayer createPlayer] 724
+2018/09/04 11:55:46:760 [I] 缓存日志文件地址:/var/mobile/Containers/Data/Application/57648C93-B830-4F6A-94D8-00C8272DC9C7/Library/Caches/Pili/PlayerLogs +[PLPlayerLogger setLogWithLevel:] 66
