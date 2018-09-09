@@ -35,6 +35,7 @@
 		CCAB2FFB213F6E4200987C77 /* PrettyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB2FF9213F6E4200987C77 /* PrettyCollectionViewCell.swift */; };
 		CCAB2FFC213F6E4200987C77 /* PrettyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCAB2FFA213F6E4200987C77 /* PrettyCollectionViewCell.xib */; };
 		CCAB3005213FEC4C00987C77 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB3004213FEC4C00987C77 /* NetworkTool.swift */; };
+		DFC6CC582144E25100E18BEB /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC6CC572144E25100E18BEB /* BaseCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		CCAB2FF9213F6E4200987C77 /* PrettyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyCollectionViewCell.swift; sourceTree = "<group>"; };
 		CCAB2FFA213F6E4200987C77 /* PrettyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrettyCollectionViewCell.xib; sourceTree = "<group>"; };
 		CCAB3004213FEC4C00987C77 /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		DFC6CC572144E25100E18BEB /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 			children = (
 				CC5C3B1621363D3800A75538 /* PageTitleView.swift */,
 				CC683369213D3C610077F070 /* PageContentView.swift */,
+				DFC6CC572144E25100E18BEB /* BaseCollectionViewCell.swift */,
 				CCAB2FF5213F694D00987C77 /* NormalCollectionViewCell.swift */,
 				CCAB2FF6213F694D00987C77 /* NormalCollectionViewCell.xib */,
 				CCAB2FF9213F6E4200987C77 /* PrettyCollectionViewCell.swift */,
@@ -430,10 +433,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DouyuTVOfSun/Pods-DouyuTVOfSun-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -476,6 +481,7 @@
 				CC68336A213D3C610077F070 /* PageContentView.swift in Sources */,
 				CC5C3B15213634B200A75538 /* UIBarButtonItem-Extension.swift in Sources */,
 				CC3A46CF21427D7E0044371F /* AnchorGroup.swift in Sources */,
+				DFC6CC582144E25100E18BEB /* BaseCollectionViewCell.swift in Sources */,
 				CC3A46CB214276600044371F /* NSDate-Extension.swift in Sources */,
 				CCAB2FF7213F694D00987C77 /* NormalCollectionViewCell.swift in Sources */,
 				CC5C3B1921363ED400A75538 /* Common.swift in Sources */,

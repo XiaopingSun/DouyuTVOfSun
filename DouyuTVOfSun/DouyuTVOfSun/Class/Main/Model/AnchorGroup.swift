@@ -21,10 +21,12 @@ class AnchorGroup: NSObject {
     // 组显示的标题
     @objc var tag_name: String = ""
     // 组显示的图标
-    @objc var icon_url: String = "home_header_normal"
+    @objc var icon_name: String = "home_header_normal"
     
     // 主播模型对象数组
     lazy var anchors: [AnchorModel] = [AnchorModel]()
+    
+    override init() {}
     
     init(dict: [String : NSObject]) {
         super.init()

@@ -7,8 +7,18 @@
 //
 
 import UIKit
+import Kingfisher
 
-class NormalCollectionViewCell: UICollectionViewCell {
+class NormalCollectionViewCell: BaseCollectionViewCell {
+    
+    @IBOutlet var roomNameLabel: UILabel!
+    
+    override var anchor: AnchorModel? {
+        didSet {
+            super.anchor = anchor
+            roomNameLabel.text = anchor?.room_name
+        }
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()

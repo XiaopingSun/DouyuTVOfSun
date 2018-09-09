@@ -8,5 +8,6 @@ target 'DouyuTVOfSun' do
   # Pods for DouyuTVOfSun
 
 pod 'Alamofire'
+pod 'Kingfisher'
 
 end

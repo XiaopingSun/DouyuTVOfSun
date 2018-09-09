@@ -12,8 +12,6 @@ private let kTitleViewH: CGFloat = 40
 
 class HomeViewController: UIViewController {
     
-    private lazy var recommendVM: RecommendViewModel = RecommendViewModel()
-
     private lazy var pageTitleView: PageTitleView = {[weak self] in
         let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenWidth, height: kTitleViewH)
         let titles = ["推荐", "游戏", "娱乐", "趣玩"]
@@ -43,7 +41,6 @@ class HomeViewController: UIViewController {
         
         automaticallyAdjustsScrollViewInsets = false
         setupUI()
-        loadData()
     }
 }
 
@@ -73,13 +70,6 @@ extension HomeViewController {
         let QRCodeItem = UIBarButtonItem(imageName: "Image_scan", selectedImageName: "Image_scan_click", size: size)
 
         navigationItem.rightBarButtonItems = [historyItem, searchItem, QRCodeItem]
-    }
-}
-
-// 请求数据
-extension HomeViewController {
-    private func loadData() {
-        recommendVM.requestData()
     }
 }
 
