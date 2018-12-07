@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		94E33AEF151FD6F8047E2B6A /* Pods_DouyuTVOfSun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E686F6672C0F0A4A551D4B6 /* Pods_DouyuTVOfSun.framework */; };
+		CC0E529E21BABEB300147D6F /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E529D21BABEB300147D6F /* RecommendCycleView.swift */; };
+		CC0E52A021BABED500147D6F /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0E529F21BABED500147D6F /* RecommendCycleView.xib */; };
 		CC3A46C9214270420044371F /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A46C8214270420044371F /* RecommendViewModel.swift */; };
 		CC3A46CB214276600044371F /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A46CA214276600044371F /* NSDate-Extension.swift */; };
 		CC3A46CF21427D7E0044371F /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A46CE21427D7E0044371F /* AnchorGroup.swift */; };
@@ -42,6 +44,8 @@
 		383CA30C3CD847063BC29B3A /* Pods-DouyuTVOfSun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouyuTVOfSun.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouyuTVOfSun/Pods-DouyuTVOfSun.release.xcconfig"; sourceTree = "<group>"; };
 		3F272593CA7ED54C643B9E78 /* Pods-DouyuTVOfSun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouyuTVOfSun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouyuTVOfSun/Pods-DouyuTVOfSun.debug.xcconfig"; sourceTree = "<group>"; };
 		4E686F6672C0F0A4A551D4B6 /* Pods_DouyuTVOfSun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouyuTVOfSun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0E529D21BABEB300147D6F /* RecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
+		CC0E529F21BABED500147D6F /* RecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
 		CC3A46C8214270420044371F /* RecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
 		CC3A46CA214276600044371F /* NSDate-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
 		CC3A46CE21427D7E0044371F /* AnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
@@ -178,6 +182,8 @@
 			children = (
 				CC683372213E72C00077F070 /* HomeCollectionReusableView.swift */,
 				CC683373213E72C00077F070 /* HomeCollectionReusableView.xib */,
+				CC0E529D21BABEB300147D6F /* RecommendCycleView.swift */,
+				CC0E529F21BABED500147D6F /* RecommendCycleView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -416,6 +422,7 @@
 				CC5C3AB82133ACDE00A75538 /* LaunchScreen.storyboard in Resources */,
 				CCAB2FF8213F694D00987C77 /* NormalCollectionViewCell.xib in Resources */,
 				CC5C3B0D2136305400A75538 /* Live.storyboard in Resources */,
+				CC0E52A021BABED500147D6F /* RecommendCycleView.xib in Resources */,
 				CC5C3B0C2136305400A75538 /* Profile.storyboard in Resources */,
 				CC5C3AB52133ACDE00A75538 /* Assets.xcassets in Resources */,
 				CC5C3B0B2136305400A75538 /* Follow.storyboard in Resources */,
@@ -470,6 +477,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0E529E21BABEB300147D6F /* RecommendCycleView.swift in Sources */,
 				CCAB2FFB213F6E4200987C77 /* PrettyCollectionViewCell.swift in Sources */,
 				CC5C3AAE2133ACDD00A75538 /* AppDelegate.swift in Sources */,
 				CC68336C213D3F980077F070 /* UIColor-Extension.swift in Sources */,
