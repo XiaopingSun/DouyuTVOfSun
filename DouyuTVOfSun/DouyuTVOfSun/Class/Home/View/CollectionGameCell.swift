@@ -13,10 +13,10 @@ class CollectionGameCell: UICollectionViewCell {
     
     @IBOutlet weak var iconImage: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
-    var group: AnchorGroup? {
+    var baseGame: BaseGameModel? {
         didSet {
-            titleLabel.text = group?.tag_name
-            let url = NSURL(string: group?.icon_url ?? "")!
+            titleLabel.text = baseGame?.tag_name
+            let url = NSURL(string: baseGame?.icon_url ?? "")!
             iconImage.kf.setImage(with: ImageResource(downloadURL: url as URL), placeholder: UIImage(named: "home_more_btn"), options: nil, progressBlock: nil, completionHandler: nil)
         }
     }

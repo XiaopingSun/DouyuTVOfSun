@@ -12,6 +12,7 @@ class HomeCollectionReusableView: UICollectionReusableView {
 
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var iconImageView: UIImageView!
+    @IBOutlet weak var moreButton: UIButton!
     
     var anchorGroup: AnchorGroup? {
         didSet {
