@@ -10,6 +10,13 @@
 		94E33AEF151FD6F8047E2B6A /* Pods_DouyuTVOfSun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E686F6672C0F0A4A551D4B6 /* Pods_DouyuTVOfSun.framework */; };
 		CC0E529E21BABEB300147D6F /* RecommendCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E529D21BABEB300147D6F /* RecommendCycleView.swift */; };
 		CC0E52A021BABED500147D6F /* RecommendCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0E529F21BABED500147D6F /* RecommendCycleView.xib */; };
+		CC0E52A221BDFE3F00147D6F /* CycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E52A121BDFE3F00147D6F /* CycleModel.swift */; };
+		CC0E52A521BE045700147D6F /* CollectionCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E52A321BE045700147D6F /* CollectionCycleCell.swift */; };
+		CC0E52A621BE045700147D6F /* CollectionCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0E52A421BE045700147D6F /* CollectionCycleCell.xib */; };
+		CC0E52AD21BE541200147D6F /* RecommendGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E52AC21BE541200147D6F /* RecommendGameView.swift */; };
+		CC0E52AF21BE541B00147D6F /* RecommendGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0E52AE21BE541B00147D6F /* RecommendGameView.xib */; };
+		CC0E52B221BE5F0C00147D6F /* CollectionGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E52B021BE5F0C00147D6F /* CollectionGameCell.swift */; };
+		CC0E52B321BE5F0C00147D6F /* CollectionGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0E52B121BE5F0C00147D6F /* CollectionGameCell.xib */; };
 		CC3A46C9214270420044371F /* RecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A46C8214270420044371F /* RecommendViewModel.swift */; };
 		CC3A46CB214276600044371F /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A46CA214276600044371F /* NSDate-Extension.swift */; };
 		CC3A46CF21427D7E0044371F /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3A46CE21427D7E0044371F /* AnchorGroup.swift */; };
@@ -46,6 +53,13 @@
 		4E686F6672C0F0A4A551D4B6 /* Pods_DouyuTVOfSun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouyuTVOfSun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0E529D21BABEB300147D6F /* RecommendCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCycleView.swift; sourceTree = "<group>"; };
 		CC0E529F21BABED500147D6F /* RecommendCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendCycleView.xib; sourceTree = "<group>"; };
+		CC0E52A121BDFE3F00147D6F /* CycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleModel.swift; sourceTree = "<group>"; };
+		CC0E52A321BE045700147D6F /* CollectionCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCycleCell.swift; sourceTree = "<group>"; };
+		CC0E52A421BE045700147D6F /* CollectionCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCycleCell.xib; sourceTree = "<group>"; };
+		CC0E52AC21BE541200147D6F /* RecommendGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendGameView.swift; sourceTree = "<group>"; };
+		CC0E52AE21BE541B00147D6F /* RecommendGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecommendGameView.xib; sourceTree = "<group>"; };
+		CC0E52B021BE5F0C00147D6F /* CollectionGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionGameCell.swift; sourceTree = "<group>"; };
+		CC0E52B121BE5F0C00147D6F /* CollectionGameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionGameCell.xib; sourceTree = "<group>"; };
 		CC3A46C8214270420044371F /* RecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewModel.swift; sourceTree = "<group>"; };
 		CC3A46CA214276600044371F /* NSDate-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
 		CC3A46CE21427D7E0044371F /* AnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
@@ -173,6 +187,7 @@
 		CC5C3AF32136305300A75538 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CC0E52A121BDFE3F00147D6F /* CycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +199,12 @@
 				CC683373213E72C00077F070 /* HomeCollectionReusableView.xib */,
 				CC0E529D21BABEB300147D6F /* RecommendCycleView.swift */,
 				CC0E529F21BABED500147D6F /* RecommendCycleView.xib */,
+				CC0E52A321BE045700147D6F /* CollectionCycleCell.swift */,
+				CC0E52A421BE045700147D6F /* CollectionCycleCell.xib */,
+				CC0E52AC21BE541200147D6F /* RecommendGameView.swift */,
+				CC0E52AE21BE541B00147D6F /* RecommendGameView.xib */,
+				CC0E52B021BE5F0C00147D6F /* CollectionGameCell.swift */,
+				CC0E52B121BE5F0C00147D6F /* CollectionGameCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -422,9 +443,12 @@
 				CC5C3AB82133ACDE00A75538 /* LaunchScreen.storyboard in Resources */,
 				CCAB2FF8213F694D00987C77 /* NormalCollectionViewCell.xib in Resources */,
 				CC5C3B0D2136305400A75538 /* Live.storyboard in Resources */,
+				CC0E52B321BE5F0C00147D6F /* CollectionGameCell.xib in Resources */,
 				CC0E52A021BABED500147D6F /* RecommendCycleView.xib in Resources */,
+				CC0E52A621BE045700147D6F /* CollectionCycleCell.xib in Resources */,
 				CC5C3B0C2136305400A75538 /* Profile.storyboard in Resources */,
 				CC5C3AB52133ACDE00A75538 /* Assets.xcassets in Resources */,
+				CC0E52AF21BE541B00147D6F /* RecommendGameView.xib in Resources */,
 				CC5C3B0B2136305400A75538 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,13 +509,17 @@
 				CC683371213E64470077F070 /* RecommendViewController.swift in Sources */,
 				CC5C3B0E2136305400A75538 /* MainViewController.swift in Sources */,
 				CC683374213E72C00077F070 /* HomeCollectionReusableView.swift in Sources */,
+				CC0E52A521BE045700147D6F /* CollectionCycleCell.swift in Sources */,
+				CC0E52A221BDFE3F00147D6F /* CycleModel.swift in Sources */,
 				CC5C3B1721363D3800A75538 /* PageTitleView.swift in Sources */,
 				CC68336A213D3C610077F070 /* PageContentView.swift in Sources */,
 				CC5C3B15213634B200A75538 /* UIBarButtonItem-Extension.swift in Sources */,
+				CC0E52AD21BE541200147D6F /* RecommendGameView.swift in Sources */,
 				CC3A46CF21427D7E0044371F /* AnchorGroup.swift in Sources */,
 				DFC6CC582144E25100E18BEB /* BaseCollectionViewCell.swift in Sources */,
 				CC3A46CB214276600044371F /* NSDate-Extension.swift in Sources */,
 				CCAB2FF7213F694D00987C77 /* NormalCollectionViewCell.swift in Sources */,
+				CC0E52B221BE5F0C00147D6F /* CollectionGameCell.swift in Sources */,
 				CC5C3B1921363ED400A75538 /* Common.swift in Sources */,
 				CC5C3B112136309F00A75538 /* HomeViewController.swift in Sources */,
 				CC3A46C9214270420044371F /* RecommendViewModel.swift in Sources */,
@@ -634,14 +662,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Launch_Image;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HD56DK4J54;
+				DEVELOPMENT_TEAM = GDFHW66V92;
 				INFOPLIST_FILE = DouyuTVOfSun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Sun.DouyuTVOfSun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pursue.Sun.DouyuTVOfSun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -655,14 +683,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Launch_Image;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HD56DK4J54;
+				DEVELOPMENT_TEAM = GDFHW66V92;
 				INFOPLIST_FILE = DouyuTVOfSun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Sun.DouyuTVOfSun;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Pursue.Sun.DouyuTVOfSun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;

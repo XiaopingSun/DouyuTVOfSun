@@ -10,6 +10,7 @@ import UIKit
 
 class RecommendViewModel {
     lazy var anchorGroups: [AnchorGroup] = [AnchorGroup]()
+    lazy var cycleModels: [CycleModel] = [CycleModel]()
     private lazy var bigDataGroup: AnchorGroup = AnchorGroup()
     private lazy var prettyGroup: AnchorGroup = AnchorGroup()
 }
@@ -17,6 +18,7 @@ class RecommendViewModel {
 // 发送网络请求
 extension RecommendViewModel {
     
+    // 请求推荐数据
     func requestData(finishCallback: @escaping () -> ()) {
         
         let parameters = ["limit" : "4", "offset":"0", "time":NSDate.getCurrentTime() as NSString]
@@ -75,5 +77,19 @@ extension RecommendViewModel {
             
             finishCallback()
         }))
+    }
+    
+    // 请求轮播数据
+    func requestCycleData(finishCallback: @escaping () -> ()) {
+        NetworkTool.requestData(type: .GET, URLString: "http://www.douyutv.com/api/v1/slide/6", parameters: ["version":"2.300"]) { (result) in
+            guard let resultDict = result as? [String: NSObject] else {return}
+            
+            guard let dataArray = resultDict["data"] as? [[String: NSObject]] else {return}
+            
+            for dict in dataArray {
+                self.cycleModels.append(CycleModel(dict: dict))
+            }
+            finishCallback()
+        }
     }
 }
