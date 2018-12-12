@@ -13,17 +13,8 @@ private let kEdgeInsetMargin: CGFloat = 10.0
 
 class RecommendGameView: UIView {
     
-    var groups: [AnchorGroup]? {
+    var groups: [BaseGameModel]? {
         didSet {
-            // 移除前两组数据
-            groups?.removeFirst()
-            groups?.removeFirst()
-            
-            // 添加更多组
-            let moreGroup = AnchorGroup()
-            moreGroup.tag_name = "更多"
-            groups?.append(moreGroup)
-            
             collectionVIew.reloadData()
         }
     }

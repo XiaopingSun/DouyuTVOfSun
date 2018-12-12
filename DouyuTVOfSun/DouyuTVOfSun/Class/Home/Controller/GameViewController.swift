@@ -12,13 +12,28 @@ private let kEdgeMargin: CGFloat = 10
 private let kItemW: CGFloat = (kScreenWidth - 2 * kEdgeMargin) / 3
 private let kItemH: CGFloat = kItemW * 6 / 5
 private let kHeaderViewH: CGFloat = 50
+private let kGameViewH: CGFloat = 90
 private let kGameHeaderViewID: String = "kGameHeaderViewID"
-
 private let kGameViewGameCellID = "kGameViewGameCellID"
 
-class GameViewController: UIViewController {
+class GameViewController: BaseViewController {
     
     private lazy var gameVM: GameViewModel = GameViewModel()
+    
+    private lazy var topHeaderView: HomeCollectionReusableView = {
+        let headerView = HomeCollectionReusableView.collectionHeaderView()
+        headerView.frame = CGRect(x: 0, y: -(kHeaderViewH + kGameViewH), width: kScreenWidth, height: kHeaderViewH)
+        headerView.iconImageView.image = UIImage(named: "Img_orange")
+        headerView.titleLabel.text = "常见"
+        headerView.moreButton.isHidden = true
+        return headerView
+    }()
+    
+    private lazy var gameView: RecommendGameView = {
+        let gameView = RecommendGameView.recommendGameView()
+        gameView.frame = CGRect(x: 0, y: -kGameViewH, width: kScreenWidth, height: kGameViewH)
+        return gameView
+    }()
     
     private lazy var collectionView: UICollectionView = {[weak self] in
         let layout = UICollectionViewFlowLayout()
@@ -36,26 +51,27 @@ class GameViewController: UIViewController {
         collectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         return collectionView
     }()
+}
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+extension GameViewController {
+    override func setupUI() {
+        contentView = collectionView
         
-        setupUI()
-        loadData()
-    }
-
-}
-
-extension GameViewController {
-    private func setupUI() {
         view.addSubview(collectionView)
+        collectionView.addSubview(topHeaderView)
+        collectionView.addSubview(gameView)
+        collectionView.contentInset = UIEdgeInsets(top: kHeaderViewH + kGameViewH, left: 0, bottom: 0, right: 0)
+        
+        super.setupUI()
     }
 }
 
 extension GameViewController {
-    private func loadData() {
+    override func loadData() {
         gameVM.loadAllGameData {
             self.collectionView.reloadData()
+            self.gameView.groups = Array(self.gameVM.games[0..<10])
+            self.loadDataFinished()
         }
     }
 }

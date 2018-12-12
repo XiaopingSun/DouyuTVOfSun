@@ -23,7 +23,5 @@ class CollectionGameCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
 }
