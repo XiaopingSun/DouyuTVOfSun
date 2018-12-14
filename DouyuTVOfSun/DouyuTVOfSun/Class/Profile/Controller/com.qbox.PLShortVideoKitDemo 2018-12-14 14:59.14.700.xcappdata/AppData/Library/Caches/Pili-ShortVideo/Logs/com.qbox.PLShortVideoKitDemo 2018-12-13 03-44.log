@@ -1,0 +1,717 @@
+2018/12/13 11:44:24:509 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-Recorder init:0x282a990a0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 11:44:24:514 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 11:44:24:710 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 11:44:24:761 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 11:44:24:798 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 11:44:24:799 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 11:44:24:799 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 11:44:24:801 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 11:44:25:434 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 11:44:25:752 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 11:44:25:795 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 11:44:31:475 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 11:44:31:845 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 11:44:33:027 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 11:44:33:089 PLShortVideoKitDemo[23650:5433290] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 11:48:35:483 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder init:0x283ec0c40 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 11:48:35:484 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 11:48:35:638 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 11:48:35:692 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 11:48:35:712 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 11:48:35:713 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 11:48:35:713 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 11:48:35:714 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 11:48:36:324 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 11:48:36:411 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 11:48:36:443 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 11:48:40:458 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder didStartRecordingToOutputFileAtURL: -[PLShortVideoRecorder encoder:didStartRecordingToOutputFileAtURL:] PLShortVideoRecorder.m:1437
+2018/12/13 11:48:40:459 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder startRecording -[PLShortVideoRecorder startRecording:]_block_invoke PLShortVideoRecorder.m:569
+2018/12/13 11:48:40:460 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder shortVideoRecorder:didStartRecordingToOutputFileAtURL: -[PLShortVideoRecorder encoder:didStartRecordingToOutputFileAtURL:]_block_invoke PLShortVideoRecorder.m:1445
+2018/12/13 11:51:01:231 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-GLKView become active start render -[PLSGLKView handleApplicationDidBecomeActive:] PLSGLKView.m:757
+2018/12/13 11:51:01:231 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-MirrorWatermarkProcessor mirrorwatermark applicationDidBecomeActive -[PLSWatermarkProcessor handleApplicationDidBecomeActive:] PLSWatermarkProcessor.m:710
+2018/12/13 11:51:01:233 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:355
+2018/12/13 11:51:01:233 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:355
+2018/12/13 11:52:38:010 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-GLKView become active start render -[PLSGLKView handleApplicationDidBecomeActive:] PLSGLKView.m:757
+2018/12/13 11:52:38:010 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-MirrorWatermarkProcessor mirrorwatermark applicationDidBecomeActive -[PLSWatermarkProcessor handleApplicationDidBecomeActive:] PLSWatermarkProcessor.m:710
+2018/12/13 11:52:38:010 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:355
+2018/12/13 11:52:38:010 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:355
+2018/12/13 11:53:40:469 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder recording totalDuration >= maxDuration -[PLShortVideoRecorder onTimer:] PLShortVideoRecorder.m:1485
+2018/12/13 11:53:40:469 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder stopRecording -[PLShortVideoRecorder stopRecording]_block_invoke PLShortVideoRecorder.m:583
+2018/12/13 11:53:40:471 PLShortVideoKitDemo[23655:5435978] [D] Pili-ShortVideo-Encoder writer.status: 1 -[PLSEncoder stopEncoding]_block_invoke PLSEncoder.m:105
+2018/12/13 11:53:41:704 PLShortVideoKitDemo[23655:5435980] [D] Pili-ShortVideo-Recorder didFinishRecordingToOutputFileAtURL: -[PLShortVideoRecorder encoder:didFinishRecordingToOutputFileAtURL:] PLShortVideoRecorder.m:1453
+2018/12/13 11:53:41:709 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder shortVideoRecorder:didFinishRecordingToOutputFileAtURL:fileDuration:totalDuration: -[PLShortVideoRecorder encoder:didFinishRecordingToOutputFileAtURL:]_block_invoke PLShortVideoRecorder.m:1465
+2018/12/13 11:53:49:124 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 11:53:49:499 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 11:54:23:864 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-AVAssetExportSession 0XX 10 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:] PLSAVAssetExportSession.m:1179
+2018/12/13 11:55:22:515 PLShortVideoKitDemo[23655:5436318] [D] Pili-ShortVideo-AVAssetExportSession 0XX 11 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke PLSAVAssetExportSession.m:1184
+2018/12/13 11:55:22:642 PLShortVideoKitDemo[23655:5436318] [D] Pili-ShortVideo-AVAssetExportSession 0XX 12 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1194
+2018/12/13 11:55:22:643 PLShortVideoKitDemo[23655:5436318] [D] Pili-ShortVideo-AVAssetExportSession temp outputURL: file:///var/mobile/Containers/Data/Application/4CB536AC-7309-47A2-A800-F8310EB86047/Documents/PLShortVideoRootFolder/PLShortVideo/20181213115423823merge.mov -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:] PLSAVAssetExportSession.m:783
+2018/12/13 11:55:22:652 PLShortVideoKitDemo[23655:5436318] [D] Pili-ShortVideo-AVAssetExportSession 0XX 13 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1198
+2018/12/13 11:55:28:140 PLShortVideoKitDemo[23655:5435978] [D] Pili-ShortVideo-AVAssetExportSession outputURL: file:///var/mobile/Containers/Data/Application/4CB536AC-7309-47A2-A800-F8310EB86047/Documents/PLShortVideoRootFolder/PLShortVideo/20181213115522643merge.mp4 -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:824
+2018/12/13 11:55:28:141 PLShortVideoKitDemo[23655:5435978] [D] Pili-ShortVideo-AVAssetExportSession exportSessionStatusCompleted -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:830
+2018/12/13 11:55:29:022 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-AVAssetExportSession export movie to PhotosAlbum -[PLSAVAssetExportSession movie:didFinishSavingWithError:contextInfo:] PLSAVAssetExportSession.m:275
+2018/12/13 11:55:29:106 PLShortVideoKitDemo[23655:5438300] [D] Pili-ShortVideo-AVAssetExportSession dealloc: PLSAVAssetExportSession -[PLSAVAssetExportSession dealloc] PLSAVAssetExportSession.m:1650
+2018/12/13 11:56:16:028 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-ShortVideoUploader dealloc: PLShortVideoUploader -[PLShortVideoUploader dealloc] PLShortVideoUploader.m:119
+2018/12/13 11:56:18:533 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-AVAssetExportSession 0XX 10 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:] PLSAVAssetExportSession.m:1179
+2018/12/13 11:57:18:076 PLShortVideoKitDemo[23655:5435333] [D] Pili-ShortVideo-AVAssetExportSession 0XX 11 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke PLSAVAssetExportSession.m:1184
+2018/12/13 11:57:18:126 PLShortVideoKitDemo[23655:5438300] [D] Pili-ShortVideo-AVAssetExportSession 0XX 12 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1194
+2018/12/13 11:57:18:126 PLShortVideoKitDemo[23655:5438300] [D] Pili-ShortVideo-AVAssetExportSession temp outputURL: file:///var/mobile/Containers/Data/Application/4CB536AC-7309-47A2-A800-F8310EB86047/Documents/PLShortVideoRootFolder/PLShortVideo/20181213115618499merge.mov -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:] PLSAVAssetExportSession.m:783
+2018/12/13 11:57:18:131 PLShortVideoKitDemo[23655:5438300] [D] Pili-ShortVideo-AVAssetExportSession 0XX 13 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1198
+2018/12/13 11:57:40:168 PLShortVideoKitDemo[23655:5435333] [D] Pili-ShortVideo-AVAssetExportSession outputURL: file:///var/mobile/Containers/Data/Application/4CB536AC-7309-47A2-A800-F8310EB86047/Documents/PLShortVideoRootFolder/PLShortVideo/20181213115718126merge.mp4 -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:824
+2018/12/13 11:57:40:169 PLShortVideoKitDemo[23655:5435333] [D] Pili-ShortVideo-AVAssetExportSession exportSessionStatusCompleted -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:830
+2018/12/13 11:57:46:032 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-ShortVideoUploader dealloc: PLShortVideoUploader -[PLShortVideoUploader dealloc] PLShortVideoUploader.m:119
+2018/12/13 11:57:48:528 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 11:57:50:080 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 11:57:50:141 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-AVAssetExportSession export movie to PhotosAlbum -[PLSAVAssetExportSession movie:didFinishSavingWithError:contextInfo:] PLSAVAssetExportSession.m:275
+2018/12/13 11:57:50:271 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-AVAssetExportSession dealloc: PLSAVAssetExportSession -[PLSAVAssetExportSession dealloc] PLSAVAssetExportSession.m:1650
+2018/12/13 11:57:50:645 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-EditPlayer dealloc: PLSEditPlayer -[PLSEditPlayer dealloc] PLSEditPlayer.m:1107
+2018/12/13 11:57:50:684 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-ShortVideoEditor dealloc: PLShortVideoEditor -[PLShortVideoEditor dealloc] PLShortVideoEditor.m:695
+2018/12/13 11:57:50:689 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/12/13 11:57:54:412 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder cancelRecording -[PLShortVideoRecorder cancelRecording]_block_invoke PLShortVideoRecorder.m:608
+2018/12/13 11:57:54:412 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder deleteAllFiles -[PLShortVideoRecorder deleteAllFiles]_block_invoke PLShortVideoRecorder.m:683
+2018/12/13 11:57:54:507 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 11:57:54:673 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 11:57:54:676 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 11:57:55:220 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-PixelBufferRotateProcessor dealloc:0x2838c04b0 -[PLSCVPixelBufferRotateProcessor dealloc] PLSCVPixelBufferRotateProcessor.m:515
+2018/12/13 11:57:55:239 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-PixelBufferRotateProcessor dealloc:0x2838c0870 -[PLSCVPixelBufferRotateProcessor dealloc] PLSCVPixelBufferRotateProcessor.m:515
+2018/12/13 11:57:55:239 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-CameraSource dealloc: PLSCameraSource -[PLSCameraSource dealloc] PLSCameraSource.m:1196
+2018/12/13 11:57:55:261 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-MicrophoneSource dealloc: PLSMicrophoneSource -[PLSMicrophoneSource dealloc] PLSMicrophoneSource.m:119
+2018/12/13 11:57:55:263 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Encoder dealloc: PLSEncoder -[PLSEncoder dealloc] PLSEncoder.m:286
+2018/12/13 11:57:55:263 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Recorder dealloc:0x283ec0c40 -[PLShortVideoRecorder dealloc] PLShortVideoRecorder.m:1800
+2018/12/13 11:57:55:271 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/12/13 11:57:55:280 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-GLKView dealloc:0x11bd37340 -[PLSGLKView dealloc] PLSGLKView.m:779
+2018/12/13 11:57:55:280 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusView -[PLSFocusView dealloc] PLSFocusView.m:139
+2018/12/13 11:57:55:280 PLShortVideoKitDemo[23655:5434137] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/13 12:27:13:330 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-Recorder init:0x280b380e0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 12:27:13:331 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 12:27:13:540 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 12:27:13:596 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 12:27:13:621 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 12:27:13:621 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 12:27:13:621 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 12:27:13:623 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 12:27:14:262 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 12:27:14:423 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 12:27:14:459 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 12:27:15:344 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 12:27:15:745 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 12:27:40:969 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect startReversing -[PLSReverserEffect startReversing] PLSReverserEffect.m:123
+2018/12/13 12:27:41:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:41:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:190 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:42:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:490 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:840 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:43:992 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:44:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:090 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:440 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:45:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:46:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:040 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:090 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:290 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:47:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:690 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:48:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:49:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:340 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:690 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:50:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:940 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:51:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:690 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:962 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:52:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:340 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:540 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:696 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:895 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:53:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:040 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:690 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:790 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:54:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:190 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:55:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:091 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:141 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:241 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:290 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:391 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:491 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:541 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:791 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:841 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:891 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:941 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:56:991 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:041 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:130 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:140 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:191 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:240 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:291 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:341 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:390 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:441 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:490 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:540 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:591 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:641 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:691 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:27:57:741 PLShortVideoKitDemo[23716:5444493] [D] Pili-ShortVideo-ReverserEffect reverseProcessing -[PLSReverserEffect updateProgress] PLSReverserEffect.m:103
+2018/12/13 12:28:22:967 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-Recorder init:0x280b2d5e0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 12:28:23:025 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 12:28:23:583 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 12:28:23:646 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 12:28:23:743 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 12:28:23:743 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 12:28:23:743 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 12:28:23:745 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 12:28:25:698 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 12:28:26:352 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 12:28:26:395 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 12:28:27:453 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 12:28:27:814 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 12:29:13:121 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-AVAssetExportSession direct add custom audio track to the composition: -[PLSAVAssetExportSession mix:movie:multiAudio:], 563 -[PLSAVAssetExportSession mix:movie:multiAudio:] PLSAVAssetExportSession.m:563
+2018/12/13 12:29:13:344 PLShortVideoKitDemo[23838:5446412] [D] Pili-ShortVideo-AVAssetExportSession 0XX 10 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:] PLSAVAssetExportSession.m:1179
+2018/12/13 12:33:27:249 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-Recorder init:0x28286cee0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 12:33:27:250 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 12:33:27:378 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 12:33:27:423 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 12:33:27:450 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 12:33:27:450 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 12:33:27:450 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 12:33:27:452 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 12:33:28:094 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 12:33:28:197 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 12:33:28:236 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 12:33:29:935 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 12:33:30:329 PLShortVideoKitDemo[23965:5449281] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 12:35:02:398 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-Recorder init:0x280c68d20 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 12:35:02:400 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 12:35:02:502 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 12:35:02:551 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 12:35:02:573 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 12:35:02:574 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 12:35:02:574 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 12:35:02:576 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 12:35:03:183 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 12:35:03:277 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 12:35:03:339 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 12:35:04:785 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 12:35:05:169 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 12:35:22:341 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-EditPlayer dealloc: PLSEditPlayer -[PLSEditPlayer dealloc] PLSEditPlayer.m:1107
+2018/12/13 12:35:22:342 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-ShortVideoEditor dealloc: PLShortVideoEditor -[PLShortVideoEditor dealloc] PLShortVideoEditor.m:695
+2018/12/13 12:35:22:345 PLShortVideoKitDemo[23979:5450387] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/12/13 12:36:02:286 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-Recorder init:0x2803e4a80 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 12:36:02:287 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 12:36:02:364 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 12:36:02:404 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 12:36:02:423 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 12:36:02:424 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 12:36:02:424 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 12:36:02:425 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 12:36:03:024 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 12:36:03:111 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 12:36:03:142 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 12:36:04:106 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 12:36:04:470 PLShortVideoKitDemo[23986:5451012] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 12:36:30:259 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-Recorder init:0x2839587e0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 12:36:30:260 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 12:36:30:335 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 12:36:30:373 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 12:36:30:391 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 12:36:30:391 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 12:36:30:391 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 12:36:30:393 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 12:36:30:991 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 12:36:31:076 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 12:36:31:108 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 12:36:32:273 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 12:36:32:674 PLShortVideoKitDemo[23992:5451404] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 12:36:52:959 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-Recorder init:0x2813009a0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 12:36:52:961 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 12:36:53:037 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 12:36:53:078 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 12:36:53:099 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 12:36:53:099 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 12:36:53:099 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 12:36:53:101 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 12:36:53:707 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 12:36:53:785 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 12:36:53:823 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 12:36:55:349 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 12:36:55:714 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 12:38:33:599 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-GLKView become active start render -[PLSGLKView handleApplicationDidBecomeActive:] PLSGLKView.m:757
+2018/12/13 12:38:33:599 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-MirrorWatermarkProcessor mirrorwatermark applicationDidBecomeActive -[PLSWatermarkProcessor handleApplicationDidBecomeActive:] PLSWatermarkProcessor.m:710
+2018/12/13 12:38:33:600 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:355
+2018/12/13 12:38:33:600 PLShortVideoKitDemo[23997:5451726] [D] Pili-ShortVideo-PixelBufferRotateProcessor become active start render -[PLSCVPixelBufferRotateProcessor handleApplicationDidBecomeActive:] PLSCVPixelBufferRotateProcessor.m:355
+2018/12/13 15:52:04:819 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-Recorder init:0x283c60ee0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 15:52:04:821 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 15:52:05:064 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 15:52:05:119 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 15:52:05:143 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 15:52:05:143 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 15:52:05:143 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 15:52:05:145 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 15:52:05:788 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 15:52:06:195 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 15:52:06:243 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 15:52:07:151 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 15:52:07:524 PLShortVideoKitDemo[24160:5499191] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 15:54:12:801 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-Recorder init:0x283fe0a80 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 15:54:12:802 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 15:54:12:930 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 15:54:12:980 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 15:54:13:000 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 15:54:13:000 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 15:54:13:000 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 15:54:13:002 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 15:54:13:634 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 15:54:13:757 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 15:54:13:809 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 15:54:14:709 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 15:54:15:088 PLShortVideoKitDemo[24167:5500306] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 16:10:38:800 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-Recorder init:0x280c70540 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 16:10:38:801 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 16:10:38:945 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 16:10:38:997 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 16:10:39:019 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 16:10:39:020 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 16:10:39:020 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 16:10:39:021 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 16:10:39:638 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 16:10:39:738 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 16:10:39:778 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 16:10:40:643 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 16:10:41:015 PLShortVideoKitDemo[24190:5507059] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 16:25:25:400 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-Recorder init:0x283519420 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 16:25:25:402 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 16:25:25:603 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 16:25:25:691 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 16:25:25:720 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 16:25:25:721 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 16:25:25:721 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 16:25:25:723 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 16:25:26:348 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 16:25:26:477 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 16:25:26:631 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 16:25:27:426 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 16:25:27:825 PLShortVideoKitDemo[24210:5510652] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 16:37:23:038 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-Recorder init:0x2824548c0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 16:37:23:039 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 16:37:23:158 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 16:37:23:223 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 16:37:23:246 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 16:37:23:247 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 16:37:23:247 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 16:37:23:249 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 16:37:23:854 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 16:37:23:934 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 16:37:23:972 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 16:37:24:776 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 16:37:25:124 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 16:37:37:101 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 16:37:37:166 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 16:37:40:002 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-Recorder cancelRecording -[PLShortVideoRecorder cancelRecording]_block_invoke PLShortVideoRecorder.m:608
+2018/12/13 16:37:40:002 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-Recorder deleteAllFiles -[PLShortVideoRecorder deleteAllFiles]_block_invoke PLShortVideoRecorder.m:683
+2018/12/13 16:37:40:004 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 16:37:40:061 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 16:37:40:423 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 16:37:40:995 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-PixelBufferRotateProcessor dealloc:0x28225a760 -[PLSCVPixelBufferRotateProcessor dealloc] PLSCVPixelBufferRotateProcessor.m:515
+2018/12/13 16:37:41:011 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-PixelBufferRotateProcessor dealloc:0x28225a670 -[PLSCVPixelBufferRotateProcessor dealloc] PLSCVPixelBufferRotateProcessor.m:515
+2018/12/13 16:37:41:012 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-CameraSource dealloc: PLSCameraSource -[PLSCameraSource dealloc] PLSCameraSource.m:1196
+2018/12/13 16:37:41:040 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-MicrophoneSource dealloc: PLSMicrophoneSource -[PLSMicrophoneSource dealloc] PLSMicrophoneSource.m:119
+2018/12/13 16:37:41:041 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-Encoder dealloc: PLSEncoder -[PLSEncoder dealloc] PLSEncoder.m:286
+2018/12/13 16:37:41:041 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-Recorder dealloc:0x2824548c0 -[PLShortVideoRecorder dealloc] PLShortVideoRecorder.m:1800
+2018/12/13 16:37:41:046 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/12/13 16:37:41:052 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-GLKView dealloc:0x101e1d0f0 -[PLSGLKView dealloc] PLSGLKView.m:779
+2018/12/13 16:37:41:052 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusView -[PLSFocusView dealloc] PLSFocusView.m:139
+2018/12/13 16:37:41:052 PLShortVideoKitDemo[24216:5512557] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/13 18:58:19:964 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-Recorder init:0x280e9cd20 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/13 18:58:19:966 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/13 18:58:20:122 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/13 18:58:20:182 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/13 18:58:20:202 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/13 18:58:20:203 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/13 18:58:20:203 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/13 18:58:20:204 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/13 18:58:20:807 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/13 18:58:20:905 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/13 18:58:20:942 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/13 18:58:22:168 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/13 18:58:22:533 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/13 18:58:34:347 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-AVAssetExportSession direct add custom audio track to the composition: -[PLSAVAssetExportSession mix:movie:multiAudio:], 563 -[PLSAVAssetExportSession mix:movie:multiAudio:] PLSAVAssetExportSession.m:563
+2018/12/13 18:58:34:643 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-AVAssetExportSession 0XX 10 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:] PLSAVAssetExportSession.m:1179
+2018/12/13 18:58:45:726 PLShortVideoKitDemo[24281:5540273] [D] Pili-ShortVideo-AVAssetExportSession 0XX 11 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke PLSAVAssetExportSession.m:1184
+2018/12/13 18:58:45:766 PLShortVideoKitDemo[24281:5540273] [D] Pili-ShortVideo-AVAssetExportSession 0XX 12 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1194
+2018/12/13 18:58:45:766 PLShortVideoKitDemo[24281:5540273] [D] Pili-ShortVideo-AVAssetExportSession temp outputURL: file:///var/mobile/Containers/Data/Application/508B067E-F88C-413C-A7BD-FD45096F0AE6/Documents/PLShortVideoRootFolder/PLShortVideo/20181213185834349merge.mov -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:] PLSAVAssetExportSession.m:783
+2018/12/13 18:58:45:776 PLShortVideoKitDemo[24281:5540273] [D] Pili-ShortVideo-AVAssetExportSession 0XX 13 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1198
+2018/12/13 18:58:46:027 PLShortVideoKitDemo[24281:5540254] [D] Pili-ShortVideo-AVAssetExportSession outputURL: file:///var/mobile/Containers/Data/Application/508B067E-F88C-413C-A7BD-FD45096F0AE6/Documents/PLShortVideoRootFolder/PLShortVideo/20181213185845767merge.mp4 -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:824
+2018/12/13 18:58:46:027 PLShortVideoKitDemo[24281:5540254] [D] Pili-ShortVideo-AVAssetExportSession exportSessionStatusCompleted -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:830
+2018/12/13 18:58:47:313 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-AVAssetExportSession export movie to PhotosAlbum -[PLSAVAssetExportSession movie:didFinishSavingWithError:contextInfo:] PLSAVAssetExportSession.m:275
+2018/12/13 18:58:47:418 PLShortVideoKitDemo[24281:5540389] [D] Pili-ShortVideo-AVAssetExportSession dealloc: PLSAVAssetExportSession -[PLSAVAssetExportSession dealloc] PLSAVAssetExportSession.m:1650
+2018/12/13 18:58:49:189 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-ShortVideoUploader dealloc: PLShortVideoUploader -[PLShortVideoUploader dealloc] PLShortVideoUploader.m:119
+2018/12/13 18:59:07:584 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-AVAssetExportSession direct add custom audio track to the composition: -[PLSAVAssetExportSession mix:movie:multiAudio:], 563 -[PLSAVAssetExportSession mix:movie:multiAudio:] PLSAVAssetExportSession.m:563
+2018/12/13 18:59:07:672 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-AVAssetExportSession direct add custom audio track to the composition: -[PLSAVAssetExportSession mix:movie:multiAudio:], 563 -[PLSAVAssetExportSession mix:movie:multiAudio:] PLSAVAssetExportSession.m:563
+2018/12/13 18:59:08:150 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-AVAssetExportSession 0XX 10 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:] PLSAVAssetExportSession.m:1179
+2018/12/13 18:59:24:880 PLShortVideoKitDemo[24281:5540389] [D] Pili-ShortVideo-AVAssetExportSession 0XX 11 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke PLSAVAssetExportSession.m:1184
+2018/12/13 18:59:25:415 PLShortVideoKitDemo[24281:5540254] [D] Pili-ShortVideo-AVAssetExportSession 0XX 12 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1194
+2018/12/13 18:59:25:416 PLShortVideoKitDemo[24281:5540254] [D] Pili-ShortVideo-AVAssetExportSession temp outputURL: file:///var/mobile/Containers/Data/Application/508B067E-F88C-413C-A7BD-FD45096F0AE6/Documents/PLShortVideoRootFolder/PLShortVideo/20181213185907703merge.mov -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:] PLSAVAssetExportSession.m:783
+2018/12/13 18:59:25:431 PLShortVideoKitDemo[24281:5540254] [D] Pili-ShortVideo-AVAssetExportSession 0XX 13 -[PLSAVAssetExportSession insertAllEffectsExceptMV:videoComposition:audioMix:videoSize:]_block_invoke_2 PLSAVAssetExportSession.m:1198
+2018/12/13 18:59:29:687 PLShortVideoKitDemo[24281:5540389] [D] Pili-ShortVideo-AVAssetExportSession outputURL: file:///var/mobile/Containers/Data/Application/508B067E-F88C-413C-A7BD-FD45096F0AE6/Documents/PLShortVideoRootFolder/PLShortVideo/20181213185925416merge.mp4 -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:824
+2018/12/13 18:59:29:688 PLShortVideoKitDemo[24281:5540389] [D] Pili-ShortVideo-AVAssetExportSession exportSessionStatusCompleted -[PLSAVAssetExportSession convertMovToMP4WithSourceURL:]_block_invoke PLSAVAssetExportSession.m:830
+2018/12/13 18:59:29:990 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-AVAssetExportSession export movie to PhotosAlbum -[PLSAVAssetExportSession movie:didFinishSavingWithError:contextInfo:] PLSAVAssetExportSession.m:275
+2018/12/13 18:59:30:036 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-AVAssetExportSession dealloc: PLSAVAssetExportSession -[PLSAVAssetExportSession dealloc] PLSAVAssetExportSession.m:1650
+2018/12/13 18:59:33:049 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-ShortVideoUploader dealloc: PLShortVideoUploader -[PLShortVideoUploader dealloc] PLShortVideoUploader.m:119
+2018/12/13 18:59:33:947 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-EditPlayer dealloc: PLSEditPlayer -[PLSEditPlayer dealloc] PLSEditPlayer.m:1107
+2018/12/13 18:59:33:950 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-EditPlayer dealloc: PLSEditPlayer -[PLSEditPlayer dealloc] PLSEditPlayer.m:1107
+2018/12/13 18:59:33:950 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-ShortVideoEditor dealloc: PLShortVideoEditor -[PLShortVideoEditor dealloc] PLShortVideoEditor.m:695
+2018/12/13 18:59:33:956 PLShortVideoKitDemo[24281:5540116] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/12/14 09:58:47:990 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder init:0x281d190a0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/14 09:58:47:994 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/14 09:58:48:047 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/14 09:58:48:070 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/14 09:58:48:101 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/14 09:58:48:101 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/14 09:58:48:101 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/14 09:58:48:103 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/14 09:58:48:685 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/14 09:58:48:761 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/14 09:58:48:815 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/14 09:58:57:445 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder didStartRecordingToOutputFileAtURL: -[PLShortVideoRecorder encoder:didStartRecordingToOutputFileAtURL:] PLShortVideoRecorder.m:1437
+2018/12/14 09:58:57:445 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder startRecording -[PLShortVideoRecorder startRecording:]_block_invoke PLShortVideoRecorder.m:569
+2018/12/14 09:58:57:446 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder shortVideoRecorder:didStartRecordingToOutputFileAtURL: -[PLShortVideoRecorder encoder:didStartRecordingToOutputFileAtURL:]_block_invoke PLShortVideoRecorder.m:1445
+2018/12/14 09:58:57:458 PLShortVideoKitDemo[24927:5675375] [D] Pili-ShortVideo-Encoder start time not set, will abandon audio sample -[PLSEncoder encode:isVideo:]_block_invoke PLSEncoder.m:245
+2018/12/14 09:59:02:634 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder stopRecording -[PLShortVideoRecorder stopRecording]_block_invoke PLShortVideoRecorder.m:583
+2018/12/14 09:59:02:634 PLShortVideoKitDemo[24927:5675376] [D] Pili-ShortVideo-Encoder writer.status: 1 -[PLSEncoder stopEncoding]_block_invoke PLSEncoder.m:105
+2018/12/14 09:59:02:700 PLShortVideoKitDemo[24927:5675376] [D] Pili-ShortVideo-Recorder didFinishRecordingToOutputFileAtURL: -[PLShortVideoRecorder encoder:didFinishRecordingToOutputFileAtURL:] PLShortVideoRecorder.m:1453
+2018/12/14 09:59:02:701 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder shortVideoRecorder:didFinishRecordingToOutputFileAtURL:fileDuration:totalDuration: -[PLShortVideoRecorder encoder:didFinishRecordingToOutputFileAtURL:]_block_invoke PLShortVideoRecorder.m:1465
+2018/12/14 09:59:04:375 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/14 09:59:04:748 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/14 09:59:33:395 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/14 09:59:33:718 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/14 09:59:34:259 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-EditPlayer dealloc: PLSEditPlayer -[PLSEditPlayer dealloc] PLSEditPlayer.m:1107
+2018/12/14 09:59:34:261 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-ShortVideoEditor dealloc: PLShortVideoEditor -[PLShortVideoEditor dealloc] PLShortVideoEditor.m:695
+2018/12/14 09:59:34:264 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/12/14 09:59:38:206 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder deleteLastFile -[PLShortVideoRecorder deleteLastFile]_block_invoke PLShortVideoRecorder.m:631
+2018/12/14 09:59:38:211 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder shortVideoRecorder:didDeleteFileAtURL:fileDuration:totalDuration: -[PLShortVideoRecorder deleteLastFile]_block_invoke_2 PLShortVideoRecorder.m:664
+2018/12/14 10:00:06:765 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-GLKView endter background stop render -[PLSGLKView handleApplicationDidEnterBackground:] PLSGLKView.m:750
+2018/12/14 10:00:06:766 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-MirrorWatermarkProcessor mirrorwatermark applicationDidEnterBackground -[PLSWatermarkProcessor handleApplicationDidEnterBackground:] PLSWatermarkProcessor.m:700
+2018/12/14 10:00:06:766 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-PixelBufferRotateProcessor endter background stop render -[PLSCVPixelBufferRotateProcessor handleApplicationDidEnterBackground:] PLSCVPixelBufferRotateProcessor.m:348
+2018/12/14 10:00:06:766 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-PixelBufferRotateProcessor endter background stop render -[PLSCVPixelBufferRotateProcessor handleApplicationDidEnterBackground:] PLSCVPixelBufferRotateProcessor.m:348
+2018/12/14 10:00:06:766 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder applicationDidEnterBackground: -[PLShortVideoRecorder applicationDidEnterBackground:] PLShortVideoRecorder.m:1514
+2018/12/14 10:00:06:766 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder stopRecording -[PLShortVideoRecorder stopRecording]_block_invoke PLShortVideoRecorder.m:583
+2018/12/14 10:00:06:766 PLShortVideoKitDemo[24927:5675365] [D] Pili-ShortVideo-Recorder Warning: recorder has stopped recording! -[PLShortVideoRecorder stopRecording]_block_invoke PLShortVideoRecorder.m:586
+2018/12/14 10:14:09:385 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-Recorder init:0x2820947e0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/14 10:14:09:390 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/14 10:14:09:424 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/14 10:14:09:449 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/14 10:14:09:474 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/14 10:14:09:474 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/14 10:14:09:474 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/14 10:14:09:476 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/14 10:14:10:084 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/14 10:14:10:190 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/14 10:14:10:273 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/14 10:14:11:647 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/14 10:14:12:002 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/14 10:14:24:258 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-GLKView endter background stop render -[PLSGLKView handleApplicationDidEnterBackground:] PLSGLKView.m:750
+2018/12/14 10:14:24:258 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-MirrorWatermarkProcessor mirrorwatermark applicationDidEnterBackground -[PLSWatermarkProcessor handleApplicationDidEnterBackground:] PLSWatermarkProcessor.m:700
+2018/12/14 10:14:24:258 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-PixelBufferRotateProcessor endter background stop render -[PLSCVPixelBufferRotateProcessor handleApplicationDidEnterBackground:] PLSCVPixelBufferRotateProcessor.m:348
+2018/12/14 10:14:24:258 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-PixelBufferRotateProcessor endter background stop render -[PLSCVPixelBufferRotateProcessor handleApplicationDidEnterBackground:] PLSCVPixelBufferRotateProcessor.m:348
+2018/12/14 10:14:24:258 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-Recorder applicationDidEnterBackground: -[PLShortVideoRecorder applicationDidEnterBackground:] PLShortVideoRecorder.m:1514
+2018/12/14 10:14:24:258 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-Recorder stopRecording -[PLShortVideoRecorder stopRecording]_block_invoke PLShortVideoRecorder.m:583
+2018/12/14 10:14:24:258 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-Recorder Warning: recorder has stopped recording! -[PLShortVideoRecorder stopRecording]_block_invoke PLShortVideoRecorder.m:586
+2018/12/14 10:14:24:263 PLShortVideoKitDemo[24940:5678945] [D] Pili-ShortVideo-MirrorWatermarkProcessor mirrorwatermark applicationDidEnterBackground -[PLSWatermarkProcessor handleApplicationDidEnterBackground:] PLSWatermarkProcessor.m:700
+2018/12/14 10:33:43:701 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-Recorder init:0x282768a80 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/14 10:33:43:703 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/14 10:33:43:940 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/14 10:33:44:000 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/14 10:33:44:034 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/14 10:33:44:035 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/14 10:33:44:035 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/14 10:33:44:037 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/14 10:33:44:669 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/14 10:33:44:923 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/14 10:33:44:963 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/14 10:34:10:295 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/14 10:34:10:958 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/14 10:34:11:490 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/14 10:34:11:890 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/14 10:34:12:307 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/14 10:34:12:640 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/14 10:34:13:024 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/14 10:34:13:406 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72
+2018/12/14 10:34:21:247 PLShortVideoKitDemo[25034:5684592] [D] Pili-ShortVideo-FocusView dealloc: PLSFocusViewAnimation -[PLSFocusViewAnimation dealloc] PLSFocusView.m:72

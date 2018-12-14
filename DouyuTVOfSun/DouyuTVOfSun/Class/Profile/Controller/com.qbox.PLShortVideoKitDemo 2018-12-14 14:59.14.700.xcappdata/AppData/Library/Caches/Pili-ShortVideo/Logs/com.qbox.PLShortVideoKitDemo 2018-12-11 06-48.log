@@ -1,0 +1,328 @@
+2018/12/11 14:48:10:059 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-Recorder init:0x2832f4460 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/11 14:48:10:063 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/11 14:48:10:351 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/11 14:48:10:419 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/11 14:48:10:448 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/11 14:48:10:448 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/11 14:48:10:448 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/11 14:48:10:450 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/11 14:48:11:079 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/11 14:48:11:217 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/11 14:48:11:262 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/11 14:48:18:237 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-CameraSource CameraSource: stopRunning -[PLSCameraSource stopRunning] PLSCameraSource.m:634
+2018/12/11 14:48:18:635 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: stopRunning -[PLSMicrophoneSource stopRunning] PLSMicrophoneSource.m:76
+2018/12/11 14:48:27:672 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed8a80 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:48:27:688 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825aee80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:48:27:710 PLShortVideoKitDemo[21426:5000260] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:48:27:714 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:48:53:894 PLShortVideoKitDemo[21426:5000260] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:48:53:907 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed8480 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:48:53:922 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825bb000> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:48:53:926 PLShortVideoKitDemo[21426:5000379] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:48:53:934 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed8a80 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:48:53:934 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825aee80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:48:53:935 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:49:20:077 PLShortVideoKitDemo[21426:5000379] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:49:20:086 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283edadc0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:49:20:101 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a8000> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:49:20:104 PLShortVideoKitDemo[21426:5000501] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:49:20:112 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed8480 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:49:20:112 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825bb000> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:49:20:112 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:49:46:179 PLShortVideoKitDemo[21426:5000501] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:49:46:193 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283edaac0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:49:46:208 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825ad100> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:49:46:212 PLShortVideoKitDemo[21426:5000605] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:49:46:219 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283edadc0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:49:46:220 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a8000> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:49:46:220 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:50:12:319 PLShortVideoKitDemo[21426:5000605] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:50:12:330 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec61c0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:50:12:344 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825ab800> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:50:12:348 PLShortVideoKitDemo[21426:5000706] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:50:12:355 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283edaac0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:50:12:355 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825ad100> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:50:12:356 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:50:38:431 PLShortVideoKitDemo[21426:5000706] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:50:38:444 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed9080 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:50:38:459 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825bf680> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:50:38:462 PLShortVideoKitDemo[21426:5000812] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:50:38:469 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec61c0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:50:38:469 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825ab800> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:50:38:469 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:51:04:605 PLShortVideoKitDemo[21426:5000812] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:51:04:620 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec6580 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:51:04:634 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825ab780> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:51:04:638 PLShortVideoKitDemo[21426:5000968] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:51:04:645 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed9080 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:51:04:645 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825bf680> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:51:04:646 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:51:30:770 PLShortVideoKitDemo[21426:5000968] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:51:30:786 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed9140 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:51:30:800 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825bf300> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:51:30:803 PLShortVideoKitDemo[21426:5001079] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:51:30:809 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec6580 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:51:30:809 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825ab780> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:51:30:810 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:51:56:945 PLShortVideoKitDemo[21426:5001079] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:51:56:957 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283edb6c0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:51:56:972 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a4780> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:51:56:976 PLShortVideoKitDemo[21426:5001168] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:51:56:983 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed9140 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:51:56:984 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825bf300> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:51:56:985 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:52:23:062 PLShortVideoKitDemo[21426:5001168] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:52:23:075 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed6040 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:52:23:090 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a9d80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:52:23:093 PLShortVideoKitDemo[21426:5001273] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:52:23:102 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283edb6c0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:52:23:102 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a4780> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:52:23:103 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:52:49:216 PLShortVideoKitDemo[21426:5001273] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:52:49:227 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed6ac0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:52:49:242 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825b9300> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:52:49:245 PLShortVideoKitDemo[21426:5001392] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:52:49:252 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed6040 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:52:49:252 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a9d80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:52:49:252 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:53:15:443 PLShortVideoKitDemo[21426:5001392] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:53:15:457 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283edbc00 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:53:15:471 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825df380> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:53:15:474 PLShortVideoKitDemo[21426:5001495] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:53:15:480 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed6ac0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:53:15:480 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825b9300> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:53:15:481 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:53:41:615 PLShortVideoKitDemo[21426:5001495] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:53:41:627 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec6400 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:53:41:642 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825aa480> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:53:41:646 PLShortVideoKitDemo[21426:5001740] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:53:41:654 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283edbc00 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:53:41:654 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825df380> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:53:41:655 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:54:07:752 PLShortVideoKitDemo[21426:5001740] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:54:07:766 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec61c0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:54:07:781 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825bfa80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:54:07:785 PLShortVideoKitDemo[21426:5001860] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:54:07:792 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec6400 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:54:07:792 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825aa480> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:54:07:793 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:54:33:911 PLShortVideoKitDemo[21426:5001860] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:54:33:924 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec6b80 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:54:33:939 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825d5680> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:54:33:942 PLShortVideoKitDemo[21426:5001985] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:54:33:951 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec61c0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:54:33:951 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825bfa80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:54:33:952 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:55:00:023 PLShortVideoKitDemo[21426:5001985] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:55:00:036 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec7300 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:55:00:051 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825b8b80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:55:00:054 PLShortVideoKitDemo[21426:5002083] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:55:00:061 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec6b80 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:55:00:061 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825d5680> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:55:00:062 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:55:26:164 PLShortVideoKitDemo[21426:5002083] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:55:26:176 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed9140 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:55:26:189 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825d3780> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:55:26:195 PLShortVideoKitDemo[21426:5002271] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:55:26:201 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec7300 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:55:26:201 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825b8b80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:55:26:202 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:55:52:426 PLShortVideoKitDemo[21426:5002271] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:55:52:437 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed5ec0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:55:52:454 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825ab480> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:55:52:457 PLShortVideoKitDemo[21426:5002376] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:55:52:465 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed9140 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:55:52:465 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825d3780> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:55:52:465 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:56:18:659 PLShortVideoKitDemo[21426:5002376] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:56:18:671 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec4180 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:56:18:688 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a8600> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:56:18:691 PLShortVideoKitDemo[21426:5002464] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:56:18:698 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed5ec0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:56:18:699 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825ab480> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:56:18:700 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:56:44:848 PLShortVideoKitDemo[21426:5002464] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:56:44:861 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec6640 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:56:44:877 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825bfa80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:56:44:881 PLShortVideoKitDemo[21426:5002583] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:56:44:889 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec4180 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:56:44:890 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a8600> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:56:44:891 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:57:10:970 PLShortVideoKitDemo[21426:5002583] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:57:10:983 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec4600 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:57:11:002 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825ded80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:57:11:013 PLShortVideoKitDemo[21426:5002686] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:57:11:017 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec6640 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:57:11:017 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825bfa80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:57:11:018 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:57:37:220 PLShortVideoKitDemo[21426:5002686] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:57:37:233 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed9800 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:57:37:249 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a4780> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:57:37:253 PLShortVideoKitDemo[21426:5002792] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:57:37:260 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec4600 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:57:37:260 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825ded80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:57:37:261 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:57:53:083 PLShortVideoKitDemo[21426:5002792] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:57:53:099 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed64c0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:57:53:115 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825afe80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:57:53:119 PLShortVideoKitDemo[21426:5002893] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:57:53:126 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed9800 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:57:53:126 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a4780> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:57:53:127 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:58:20:563 PLShortVideoKitDemo[21426:5002893] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:58:20:578 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed1500 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:58:20:596 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825acf00> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:58:20:600 PLShortVideoKitDemo[21426:5003013] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:58:20:607 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed64c0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:58:20:607 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825afe80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:58:20:608 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:58:46:734 PLShortVideoKitDemo[21426:5003013] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:58:46:748 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed9980 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:58:46:764 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825adb80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:58:46:769 PLShortVideoKitDemo[21426:5003131] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:58:46:775 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed1500 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:58:46:775 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825acf00> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:58:46:776 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:59:12:913 PLShortVideoKitDemo[21426:5003131] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:59:12:926 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283eda4c0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:59:12:944 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825ae580> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:59:12:947 PLShortVideoKitDemo[21426:5003235] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:59:12:955 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed9980 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:59:12:955 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825adb80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:59:12:956 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 14:59:39:131 PLShortVideoKitDemo[21426:5003235] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 14:59:39:145 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec79c0 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 14:59:39:162 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a6a80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 14:59:39:166 PLShortVideoKitDemo[21426:5003339] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 14:59:39:173 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283eda4c0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 14:59:39:173 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825ae580> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 14:59:39:174 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:00:05:265 PLShortVideoKitDemo[21426:5003339] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:00:05:280 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed7480 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:00:05:298 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825b9680> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:00:05:302 PLShortVideoKitDemo[21426:5003446] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:00:05:309 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec79c0 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:00:05:309 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a6a80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:00:05:310 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:00:31:429 PLShortVideoKitDemo[21426:5003446] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:00:31:443 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed9080 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:00:31:460 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825bf900> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:00:31:464 PLShortVideoKitDemo[21426:5003563] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:00:31:472 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed7480 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:00:31:472 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825b9680> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:00:31:473 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:00:57:565 PLShortVideoKitDemo[21426:5003563] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:00:57:580 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec6400 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:00:57:598 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825aac80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:00:57:602 PLShortVideoKitDemo[21426:5003668] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:00:57:610 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed9080 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:00:57:610 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825bf900> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:00:57:611 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:01:23:728 PLShortVideoKitDemo[21426:5003668] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:01:23:741 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec7f00 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:01:23:760 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a6e00> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:01:23:763 PLShortVideoKitDemo[21426:5003786] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:01:23:771 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec6400 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:01:23:771 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825aac80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:01:23:772 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:01:49:889 PLShortVideoKitDemo[21426:5003786] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:01:49:902 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283edbd80 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:01:49:920 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a8480> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:01:49:924 PLShortVideoKitDemo[21426:5003899] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:01:49:931 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec7f00 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:01:49:931 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a6e00> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:01:49:932 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:02:16:060 PLShortVideoKitDemo[21426:5003899] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:02:16:073 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283edae80 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:02:16:091 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825ae800> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:02:16:095 PLShortVideoKitDemo[21426:5003995] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:02:16:102 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283edbd80 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:02:16:102 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a8480> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:02:16:103 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:02:42:230 PLShortVideoKitDemo[21426:5003995] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:02:42:243 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283edb300 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:02:42:260 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825bf700> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:02:42:264 PLShortVideoKitDemo[21426:5004094] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:02:42:272 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283edae80 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:02:42:272 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825ae800> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:02:42:273 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:03:08:356 PLShortVideoKitDemo[21426:5004094] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:03:08:369 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec4840 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:03:08:386 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a8680> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:03:08:391 PLShortVideoKitDemo[21426:5004199] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:03:08:398 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283edb300 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:03:08:398 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825bf700> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:03:08:399 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:03:34:540 PLShortVideoKitDemo[21426:5004199] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:03:34:555 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283eda400 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:03:34:572 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825aaf80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:03:34:576 PLShortVideoKitDemo[21426:5004302] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:03:34:583 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec4840 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:03:34:584 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a8680> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:03:34:584 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:04:00:674 PLShortVideoKitDemo[21426:5004302] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:04:00:690 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec6c40 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:04:00:707 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825b9200> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:04:00:711 PLShortVideoKitDemo[21426:5004397] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:04:00:718 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283eda400 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:04:00:718 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825aaf80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:04:00:719 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:04:26:845 PLShortVideoKitDemo[21426:5004397] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:04:26:860 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed9e00 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:04:26:878 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825dfa80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:04:26:882 PLShortVideoKitDemo[21426:5004516] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:04:26:890 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec6c40 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:04:26:890 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825b9200> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:04:26:891 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:04:53:010 PLShortVideoKitDemo[21426:5004516] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:04:53:024 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed8000 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:04:53:040 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825bcf80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:04:53:044 PLShortVideoKitDemo[21426:5004627] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:04:53:052 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed9e00 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:04:53:052 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825dfa80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:04:53:053 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:05:19:157 PLShortVideoKitDemo[21426:5004627] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:05:19:173 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ed9380 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:05:19:191 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825ad480> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:05:19:195 PLShortVideoKitDemo[21426:5004711] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:05:19:203 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed8000 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:05:19:203 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825bcf80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:05:19:204 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:05:45:269 PLShortVideoKitDemo[21426:5004711] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:05:45:283 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283ec6f40 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:05:45:301 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825afe80> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:05:45:305 PLShortVideoKitDemo[21426:5004832] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:05:45:313 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ed9380 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:05:45:313 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825ad480> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:05:45:314 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:06:11:435 PLShortVideoKitDemo[21426:5004832] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:06:11:449 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect init:0x283edbc00 -[PLSMVEffect initWithColor:alpha:timeRange:loopEnable:movieDuration:] PLSMVEffect.m:55
+2018/12/11 15:06:11:467 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie init: <PLSTwoInputMovie: 0x2825a5900> -[PLSTwoInputMovie initWithAsset:] PLSTwoInputMovie.m:36
+2018/12/11 15:06:11:471 PLShortVideoKitDemo[21426:5004949] [D] Pili-ShortVideo-TwoInputMovie reading thread start -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:85
+2018/12/11 15:06:11:479 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283ec6f40 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:06:11:479 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825afe80> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:06:11:480 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer mvEffect startProcessing -[PLSEditPlayer insertAllEffects] PLSEditPlayer.m:848
+2018/12/11 15:06:26:756 PLShortVideoKitDemo[21426:5004949] [D] Pili-ShortVideo-TwoInputMovie reading thread exit -[PLSTwoInputMovie assetReadProc] PLSTwoInputMovie.m:119
+2018/12/11 15:06:26:771 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-MVEffect dealloc:0x283edbc00 -[PLSMVEffect dealloc] PLSMVEffect.m:271
+2018/12/11 15:06:26:771 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-TwoInputMovie dealloc: <PLSTwoInputMovie: 0x2825a5900> -[PLSTwoInputMovie dealloc] PLSTwoInputMovie.m:75
+2018/12/11 15:06:26:773 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-EditPlayer dealloc: PLSEditPlayer -[PLSEditPlayer dealloc] PLSEditPlayer.m:1107
+2018/12/11 15:06:26:777 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-ShortVideoEditor dealloc: PLShortVideoEditor -[PLShortVideoEditor dealloc] PLShortVideoEditor.m:695
+2018/12/11 15:06:26:785 PLShortVideoKitDemo[21426:4999400] [D] Pili-ShortVideo-Filter dealloc: PLSFilter -[PLSFilter dealloc] PLSFilter.m:141
+2018/12/12 09:27:20:549 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-Recorder init:0x2809b87e0 -[PLShortVideoRecorder initWithVideoConfiguration:audioConfiguration:videoCaptureEnabled:audioCaptureEnabled:] PLShortVideoRecorder.m:270
+2018/12/12 09:27:20:555 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-GLKView init:{{0, 0}, {414, 736}} -[PLSGLKView initWithFrame:] PLSGLKView.m:313
+2018/12/12 09:27:20:604 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-GLKView Success setup GL framebuffer 1242:2208 -[PLSGLKView createDisplayFramebuffer] PLSGLKView.m:455
+2018/12/12 09:27:20:622 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-Recorder camera authorizeation status: authorized -[PLShortVideoRecorder initCameraSourceWithVideoCaptureConfiguration:eaglContext:completionHandler:] PLShortVideoRecorder.m:374
+2018/12/12 09:27:20:660 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource setContinuousAutofocusEnable:] PLSCameraSource.m:284
+2018/12/12 09:27:20:660 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-CameraSource Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1104
+2018/12/12 09:27:20:660 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-CameraSource Focus POI not supported -[PLSCameraSource refreshCaptureDeviceConfig] PLSCameraSource.m:1110
+2018/12/12 09:27:20:662 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-Recorder microphone authorizeation status: authorized -[PLShortVideoRecorder initMicophoneSourceWithAudioCaptureConfiguration:completionHandler:] PLShortVideoRecorder.m:444
+2018/12/12 09:27:21:279 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-CameraSource CameraSource: startRunning -[PLSCameraSource startRunning] PLSCameraSource.m:629
+2018/12/12 09:27:21:482 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-MicrophoneSource MicrophoneSource: startRunning -[PLSMicrophoneSource startRunning] PLSMicrophoneSource.m:71
+2018/12/12 09:27:21:553 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-GLKView layout subviews -[PLSGLKView layoutSubviews] PLSGLKView.m:380
+2018/12/12 09:27:29:236 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-GLKView endter background stop render -[PLSGLKView handleApplicationDidEnterBackground:] PLSGLKView.m:750
+2018/12/12 09:27:29:237 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-MirrorWatermarkProcessor mirrorwatermark applicationDidEnterBackground -[PLSWatermarkProcessor handleApplicationDidEnterBackground:] PLSWatermarkProcessor.m:700
+2018/12/12 09:27:29:237 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-PixelBufferRotateProcessor endter background stop render -[PLSCVPixelBufferRotateProcessor handleApplicationDidEnterBackground:] PLSCVPixelBufferRotateProcessor.m:348
+2018/12/12 09:27:29:237 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-PixelBufferRotateProcessor endter background stop render -[PLSCVPixelBufferRotateProcessor handleApplicationDidEnterBackground:] PLSCVPixelBufferRotateProcessor.m:348
+2018/12/12 09:27:29:237 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-Recorder applicationDidEnterBackground: -[PLShortVideoRecorder applicationDidEnterBackground:] PLShortVideoRecorder.m:1514
+2018/12/12 09:27:29:237 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-Recorder stopRecording -[PLShortVideoRecorder stopRecording]_block_invoke PLShortVideoRecorder.m:583
+2018/12/12 09:27:29:237 PLShortVideoKitDemo[22258:5184558] [D] Pili-ShortVideo-Recorder Warning: recorder has stopped recording! -[PLShortVideoRecorder stopRecording]_block_invoke PLShortVideoRecorder.m:586

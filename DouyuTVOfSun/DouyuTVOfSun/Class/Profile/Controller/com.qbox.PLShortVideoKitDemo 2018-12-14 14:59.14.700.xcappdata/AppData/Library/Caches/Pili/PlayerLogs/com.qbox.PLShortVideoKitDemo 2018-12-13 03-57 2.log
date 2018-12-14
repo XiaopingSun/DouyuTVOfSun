@@ -1,0 +1,35 @@
+2018/12/13 11:57:40:263 [I] Player SDKID : CC9BEB88-B08C-4C56-A028-A348D2C875D6 -[PLPlayer configOption] 783
+2018/12/13 11:57:40:264 [I] PLPlayerKit Version: 3.3.1-git-2018-05-21-2956ccf，Core Version: 1.1.0.68 void printAllVersion(NSString *__strong) 44
+2018/12/13 11:57:40:264 [I] player change size: () -[PLPlayer observeValueForKeyPath:ofObject:change:context:] 1391
+2018/12/13 11:57:40:303 [I] player change size: () -[PLPlayer observeValueForKeyPath:ofObject:change:context:] 1391
+2018/12/13 11:57:40:934 [I] PLPlayer stop -[PLPlayer stop] 1060
+2018/12/13 11:57:40:935 [I] Player create qplayer -[PLPlayer openQPlayer:sameSourceMode:] 820
+2018/12/13 11:57:40:935 [I] play url:file:///var/mobile/Containers/Data/Application/4CB536AC-7309-47A2-A800-F8310EB86047/Documents/PLShortVideoRootFolder/PLShortVideo/20181213115718126merge.mp4 -[PLPlayer openQPlayer:sameSourceMode:] 894
+2018/12/13 11:57:40:935 [I] Player open qplayer start -[PLPlayer openQPlayer:sameSourceMode:] 902
+2018/12/13 11:57:40:936 [I] player status change to (1) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/12/13 11:57:41:133 [I] Player open down qplayer -[PLPlayer onPlayerEvent:withParam:] 333
+2018/12/13 11:57:41:134 [I] Player run qplayer -[PLPlayer onPlayerEvent:withParam:] 342
+2018/12/13 11:57:41:137 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:41:137 [I] player status change to (2) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/12/13 11:57:41:161 [I] player video size (720 x 1280) -> (720 x 1280) -[PLPlayer getVideoSize:] 1169
+2018/12/13 11:57:41:161 [I] player status change to (5) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/12/13 11:57:41:161 [I] PLPlayer: warning delegate method <PlayViewController: 0x11bdf2870> not implement -[PLPlayer firstRenderComing:] 1266
+2018/12/13 11:57:41:264 [I] Player run qplayer finish -[PLPlayer onPlayerEvent:withParam:] 347
+2018/12/13 11:57:41:266 [I] PLPlayer: warning delegate method <PlayViewController: 0x11bdf2870> not implement -[PLPlayer firstRenderComing:] 1266
+2018/12/13 11:57:41:637 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:42:138 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:42:638 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:43:138 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:43:638 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:44:137 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:44:637 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:45:138 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:45:637 [I] player totalDurationSecond: 287.893005, longDuration = 287893 -[PLPlayer totalDuration] 194
+2018/12/13 11:57:46:003 [I] PLPlayer stop -[PLPlayer stop] 1060
+2018/12/13 11:57:46:032 [I] player status change to (7) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/12/13 11:57:46:033 [I] Player dealloc : file:///var/mobile/Containers/Data/Application/4CB536AC-7309-47A2-A800-F8310EB86047/Documents/PLShortVideoRootFolder/PLShortVideo/20181213115718126merge.mp4 -[PLPlayer dealloc] 792
+2018/12/13 11:57:46:033 [I] Player destroyed -[PLPlayer destroyPlayer] 805
+2018/12/13 11:57:46:094 [I] Player dealloc finshed -[PLPlayer dealloc] 800
+2018/12/13 18:58:46:213 [I] Player create qplayer -[PLPlayer createPlayer] 710
+2018/12/13 18:58:46:265 [I] plplayer version: 16842820 -[PLPlayer createPlayer] 724
+2018/12/13 18:58:46:266 [I] 缓存日志文件地址:/var/mobile/Containers/Data/Application/508B067E-F88C-413C-A7BD-FD45096F0AE6/Library/Caches/Pili/PlayerLogs +[PLPlayerLogger setLogWithLevel:] 66

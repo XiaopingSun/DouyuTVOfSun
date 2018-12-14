@@ -1,0 +1,28 @@
+2018/12/13 18:59:29:771 [I] Player SDKID : CC9BEB88-B08C-4C56-A028-A348D2C875D6 -[PLPlayer configOption] 783
+2018/12/13 18:59:29:771 [I] PLPlayerKit Version: 3.3.1-git-2018-05-21-2956ccf，Core Version: 1.1.0.68 void printAllVersion(NSString *__strong) 44
+2018/12/13 18:59:29:773 [I] player change size: () -[PLPlayer observeValueForKeyPath:ofObject:change:context:] 1391
+2018/12/13 18:59:29:818 [I] player change size: () -[PLPlayer observeValueForKeyPath:ofObject:change:context:] 1391
+2018/12/13 18:59:30:415 [I] PLPlayer stop -[PLPlayer stop] 1060
+2018/12/13 18:59:30:415 [I] Player create qplayer -[PLPlayer openQPlayer:sameSourceMode:] 820
+2018/12/13 18:59:30:415 [I] play url:file:///var/mobile/Containers/Data/Application/508B067E-F88C-413C-A7BD-FD45096F0AE6/Documents/PLShortVideoRootFolder/PLShortVideo/20181213185925416merge.mp4 -[PLPlayer openQPlayer:sameSourceMode:] 894
+2018/12/13 18:59:30:415 [I] Player open qplayer start -[PLPlayer openQPlayer:sameSourceMode:] 902
+2018/12/13 18:59:30:416 [I] player status change to (1) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/12/13 18:59:30:436 [I] Player open down qplayer -[PLPlayer onPlayerEvent:withParam:] 333
+2018/12/13 18:59:30:436 [I] Player run qplayer -[PLPlayer onPlayerEvent:withParam:] 342
+2018/12/13 18:59:30:438 [I] player totalDurationSecond: 7.908000, longDuration = 7908 -[PLPlayer totalDuration] 194
+2018/12/13 18:59:30:438 [I] player status change to (2) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/12/13 18:59:30:476 [I] player video size (1280 x 720) -> (1280 x 720) -[PLPlayer getVideoSize:] 1169
+2018/12/13 18:59:30:488 [I] player status change to (5) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/12/13 18:59:30:489 [I] PLPlayer: warning delegate method <PlayViewController: 0x125b31420> not implement -[PLPlayer firstRenderComing:] 1266
+2018/12/13 18:59:30:587 [I] Player run qplayer finish -[PLPlayer onPlayerEvent:withParam:] 347
+2018/12/13 18:59:30:597 [I] PLPlayer: warning delegate method <PlayViewController: 0x125b31420> not implement -[PLPlayer firstRenderComing:] 1266
+2018/12/13 18:59:30:939 [I] player totalDurationSecond: 7.908000, longDuration = 7908 -[PLPlayer totalDuration] 194
+2018/12/13 18:59:31:438 [I] player totalDurationSecond: 7.908000, longDuration = 7908 -[PLPlayer totalDuration] 194
+2018/12/13 18:59:31:939 [I] player totalDurationSecond: 7.908000, longDuration = 7908 -[PLPlayer totalDuration] 194
+2018/12/13 18:59:32:439 [I] player totalDurationSecond: 7.908000, longDuration = 7908 -[PLPlayer totalDuration] 194
+2018/12/13 18:59:32:938 [I] player totalDurationSecond: 7.908000, longDuration = 7908 -[PLPlayer totalDuration] 194
+2018/12/13 18:59:33:011 [I] PLPlayer stop -[PLPlayer stop] 1060
+2018/12/13 18:59:33:049 [I] player status change to (7) -[PLPlayer getDelegateStatusChanged:]_block_invoke 1243
+2018/12/13 18:59:33:051 [I] Player dealloc : file:///var/mobile/Containers/Data/Application/508B067E-F88C-413C-A7BD-FD45096F0AE6/Documents/PLShortVideoRootFolder/PLShortVideo/20181213185925416merge.mp4 -[PLPlayer dealloc] 792
+2018/12/13 18:59:33:051 [I] Player destroyed -[PLPlayer destroyPlayer] 805
+2018/12/13 18:59:33:115 [I] Player dealloc finshed -[PLPlayer dealloc] 800

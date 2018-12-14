@@ -1,20 +1,32 @@
 PODS:
   - Alamofire (4.7.3)
   - Kingfisher (4.9.0)
+  - PLMediaStreamingKit (2.3.3):
+    - PLMediaStreamingKit/iphoneos (= 2.3.3)
+  - PLMediaStreamingKit/iphoneos (2.3.3)
+  - PLPlayerKit (3.4.0):
+    - PLPlayerKit/iphoneos (= 3.4.0)
+  - PLPlayerKit/iphoneos (3.4.0)
 
 DEPENDENCIES:
   - Alamofire
   - Kingfisher
+  - PLMediaStreamingKit
+  - PLPlayerKit
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - Kingfisher
+    - PLMediaStreamingKit
+    - PLPlayerKit
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   Kingfisher: 64539b51826b778206daa6ed815d12653caa69dd
+  PLMediaStreamingKit: 762e312dd088b1b487c5b7f3a59b56231d1cbb71
+  PLPlayerKit: e6ad0e14a1c49db4befab201c2701d26489314e8
 
-PODFILE CHECKSUM: a9f0d9266806780167ef77fbab2c353421ef9671
+PODFILE CHECKSUM: 2ecabc5aca75585e96c6550185c1611a5c4ac7a9
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.6.0.beta.2

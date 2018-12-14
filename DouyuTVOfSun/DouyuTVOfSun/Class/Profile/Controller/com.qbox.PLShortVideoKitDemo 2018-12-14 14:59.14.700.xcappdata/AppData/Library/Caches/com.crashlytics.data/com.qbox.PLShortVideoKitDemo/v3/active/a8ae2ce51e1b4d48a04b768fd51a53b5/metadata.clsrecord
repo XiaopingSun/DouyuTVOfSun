@@ -1,0 +1,4 @@
+{"identity":{"generator":"Crashlytics iOS SDK/3.8.4","build_version":"121","display_version":"3.8.4","api_key":"356922ded861e8764b53656f328bf3e7610fb59b","started_at":1544767066,"session_id":"a8ae2ce51e1b4d48a04b768fd51a53b5","install_id":"D3FB486A-EE0F-4093-906C-4E103A76107F","beta_token":null,"absolute_log_timestamps":true}}
+{"host":{"model":"iPhone8,2","machine":"N66AP","os_build_version":"16B92","os_display_version":"12.1.0","platform":"ios","locale":"en_CN"}}
+{"application":{"bundle_id":"com.qbox.PLShortVideoKitDemo","custom_bundle_id":null,"build_version":"1.15.0.git-2018-11-15-106ba9d","display_version":"1.15.0","extension_id":null}}
+{"executable":{"architecture":"arm64","uuid":"cda80205565a364f8d3f368b764e6fcb","base":4299145216,"size":2703360,"encrypted":false,"minimum_sdk_version":"8.0.0","built_sdk_version":"12.1.0"}}

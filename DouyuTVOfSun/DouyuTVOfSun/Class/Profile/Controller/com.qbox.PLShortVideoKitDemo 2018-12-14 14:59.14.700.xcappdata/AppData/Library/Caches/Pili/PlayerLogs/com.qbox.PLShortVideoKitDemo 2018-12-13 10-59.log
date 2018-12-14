@@ -1,0 +1,3 @@
+2018/12/13 18:59:29:710 [I] Player create qplayer -[PLPlayer createPlayer] 710
+2018/12/13 18:59:29:769 [I] plplayer version: 16842820 -[PLPlayer createPlayer] 724
+2018/12/13 18:59:29:770 [I] 缓存日志文件地址:/var/mobile/Containers/Data/Application/508B067E-F88C-413C-A7BD-FD45096F0AE6/Library/Caches/Pili/PlayerLogs +[PLPlayerLogger setLogWithLevel:] 66
