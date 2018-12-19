@@ -111,11 +111,17 @@
                                 <rect key="frame" x="130" y="295.5" width="225" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="AVCaptureSessionPreset1280x720"/>
+                                <connections>
+                                    <action selector="sessionPresetAction:" destination="4B9-W7-mMo" eventType="touchUpInside" id="fNr-Ol-Vo3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOK-x0-JAS">
                                 <rect key="frame" x="295" y="352.5" width="60" height="29"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="540x960"/>
+                                <connections>
+                                    <action selector="videoSizeAction:" destination="4B9-W7-mMo" eventType="touchUpInside" id="bd4-hK-F54"/>
+                                </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="c2E-53-X4U">
                                 <rect key="frame" x="212" y="524" width="143" height="29"/>

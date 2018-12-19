@@ -10,6 +10,8 @@
 import UIKit
 import PLMediaStreamingKit
 
+private let cellIdentifier: String = "cellIdentifier"
+
 class LiveViewController: UIViewController {
 
     @IBOutlet weak var pushUrlTF: UITextField!
@@ -21,6 +23,8 @@ class LiveViewController: UIViewController {
     @IBOutlet weak var frameRateSC: UISegmentedControl!
     @IBOutlet weak var bitrateTF: UITextField!
     @IBOutlet weak var GopSC: UISegmentedControl!
+    
+    private var isSessionPresetSelected: Bool = true
     
     private var sessionPresetShow: [String] = [
         "AVCaptureSessionPreset352x288",
@@ -89,12 +93,24 @@ class LiveViewController: UIViewController {
     }
     
     private var bitrate: UInt {
-        return UInt(bitrateTF.text ?? "1000") ?? 1000
+        return (UInt(bitrateTF.text ?? "1000") ?? 1000) * 1024
     }
     
     private var keyframeInterval: UInt {
         return UInt(GopSC.selectedSegmentIndex.advanced(by: 1)) * frameRate
     }
+    
+    private lazy var tableView: UITableView = {[weak self] in
+        let tableView: UITableView = UITableView(frame: CGRect(x: 60, y: 240, width: kScreenWidth - 120, height: 44 * 4), style: .plain)
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
+        tableView.alpha = 0.01
+        tableView.isHidden = true
+        tableView.layer.masksToBounds = true
+        tableView.layer.cornerRadius = 5
+        return tableView
+    }()
     
     override func viewDidLoad() {
 
@@ -104,6 +120,26 @@ class LiveViewController: UIViewController {
         
         // 默认推流地址
         pushUrlTF.text = "rtmp://pili-publish.live.sunxp.qiniuts.com/pursue-live/Sun"
+        
+        view.addSubview(tableView)
+    }
+    
+    @IBAction func sessionPresetAction(_ sender: Any) {
+        isSessionPresetSelected = true
+        tableView.reloadData()
+        UIView.animate(withDuration: 0.2) {
+            self.tableView.alpha = 1.0
+            self.tableView.isHidden = false
+        }
+    }
+    
+    @IBAction func videoSizeAction(_ sender: Any) {
+        isSessionPresetSelected = false
+        tableView.reloadData()
+        UIView.animate(withDuration: 0.2) {
+            self.tableView.alpha = 1.0
+            self.tableView.isHidden = false
+        }
     }
     
     @IBAction func startPush(_ sender: Any) {
@@ -124,6 +160,12 @@ class LiveViewController: UIViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        if tableView.isHidden == false {
+            UIView.animate(withDuration: 0.2) {
+                self.tableView.alpha = 0.01
+                self.tableView.isHidden = true
+            }
+        }
         view.endEditing(true)
     }
 }
@@ -136,6 +178,38 @@ extension LiveViewController: ScanCodeViewControllerDelegate {
             return
         }
         pushUrlTF.text = codeString
+    }
+}
+
+extension LiveViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if isSessionPresetSelected == true {
+            return 11
+        } else {
+            return 4
+        }
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        cell.backgroundColor = UIColor.lightGray
+        cell.textLabel?.font = UIFont.systemFont(ofSize: 14.0)
+        if isSessionPresetSelected == true {
+            cell.textLabel?.text = sessionPresetShow[indexPath.row]
+        } else {
+            cell.textLabel?.text = videoSizeShow[indexPath.row]
+        }
+        return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if isSessionPresetSelected == true {
+            sessionPresetButton.setTitle(sessionPresetShow[indexPath.row], for: .normal)
+        } else {
+            videoSizeButton.setTitle(videoSizeShow[indexPath.row], for: .normal)
+        }
+        UIView.animate(withDuration: 0.2) {
+            self.tableView.alpha = 0.01
+            self.tableView.isHidden = true
+        }
     }
 }
 

@@ -24,6 +24,7 @@ class RoomShowViewController: UIViewController {
     private lazy var startPushButton: UIButton = {[weak self] in
         let startPushButton = UIButton(type: .custom)
         startPushButton.setTitle("start", for: .normal)
+        startPushButton.backgroundColor = UIColor.lightGray
         startPushButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 18)
         startPushButton.setTitleColor(UIColor.orange, for: .normal)
         startPushButton.setTitleColor(UIColor.orange, for: .selected)

@@ -36,7 +36,6 @@
 		CC3D24D621C1065100D5D424 /* FunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24D521C1065100D5D424 /* FunnyViewController.swift */; };
 		CC3D24D821C108C600D5D424 /* FunnyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24D721C108C600D5D424 /* FunnyViewModel.swift */; };
 		CC3D24DA21C1116D00D5D424 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24D921C1116D00D5D424 /* BaseViewController.swift */; };
-		CC3D24E021C119D100D5D424 /* RoomShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24DF21C119D100D5D424 /* RoomShowViewController.swift */; };
 		CC3D24E221C11A0400D5D424 /* RoomPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24E121C11A0400D5D424 /* RoomPlayerViewController.swift */; };
 		CC3D24E421C11CE100D5D424 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24E321C11CE100D5D424 /* CustomNavigationController.swift */; };
 		CC3D24EE21C2224100D5D424 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24ED21C2224100D5D424 /* LiveViewController.swift */; };
@@ -66,6 +65,7 @@
 		CCAB2FFC213F6E4200987C77 /* PrettyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCAB2FFA213F6E4200987C77 /* PrettyCollectionViewCell.xib */; };
 		CCAB3005213FEC4C00987C77 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAB3004213FEC4C00987C77 /* NetworkTool.swift */; };
 		CCDBA93921C394E6008D7AC5 /* ScanCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDBA93821C394E6008D7AC5 /* ScanCodeViewController.swift */; };
+		CCDBA98821CA03EB008D7AC5 /* RoomShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24DF21C119D100D5D424 /* RoomShowViewController.swift */; };
 		DFC6CC582144E25100E18BEB /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC6CC572144E25100E18BEB /* BaseCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -376,7 +376,7 @@
 			isa = PBXGroup;
 			children = (
 				CC5C3B022136305400A75538 /* Model */,
-				CC5C3B032136305400A75538 /* View */,
+				CCDBA98621C8FF1A008D7AC5 /* View */,
 				CC5C3B002136305400A75538 /* Controller */,
 			);
 			path = Live;
@@ -397,13 +397,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		CC5C3B032136305400A75538 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		CC5C3B042136305400A75538 /* Main */ = {
@@ -471,6 +464,13 @@
 				CC3A46CA214276600044371F /* NSDate-Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		CCDBA98621C8FF1A008D7AC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		DB078D8B799DF693E3ED962F /* Pods */ = {
@@ -618,6 +618,7 @@
 				CC0E529E21BABEB300147D6F /* RecommendCycleView.swift in Sources */,
 				CCAB2FFB213F6E4200987C77 /* PrettyCollectionViewCell.swift in Sources */,
 				CC5C3AAE2133ACDD00A75538 /* AppDelegate.swift in Sources */,
+				CCDBA98821CA03EB008D7AC5 /* RoomShowViewController.swift in Sources */,
 				CC3D24BB21BFB54C00D5D424 /* GameViewModel.swift in Sources */,
 				CC68336C213D3F980077F070 /* UIColor-Extension.swift in Sources */,
 				CC3D24DA21C1116D00D5D424 /* BaseViewController.swift in Sources */,
@@ -654,7 +655,6 @@
 				CC0E52B221BE5F0C00147D6F /* CollectionGameCell.swift in Sources */,
 				CC3D24EE21C2224100D5D424 /* LiveViewController.swift in Sources */,
 				CC5C3B1921363ED400A75538 /* Common.swift in Sources */,
-				CC3D24E021C119D100D5D424 /* RoomShowViewController.swift in Sources */,
 				CC5C3B112136309F00A75538 /* HomeViewController.swift in Sources */,
 				CC3A46C9214270420044371F /* RecommendViewModel.swift in Sources */,
 				CC3A46D221428EE60044371F /* AnchorModel.swift in Sources */,
