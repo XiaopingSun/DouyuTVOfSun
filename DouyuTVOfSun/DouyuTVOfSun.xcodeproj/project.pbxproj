@@ -41,6 +41,9 @@
 		CC3D24EE21C2224100D5D424 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24ED21C2224100D5D424 /* LiveViewController.swift */; };
 		CC3D24F021C2231800D5D424 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24EF21C2231800D5D424 /* FollowViewController.swift */; };
 		CC3D24F221C2235400D5D424 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D24F121C2235400D5D424 /* ProfileViewController.swift */; };
+		CC4D5DE021CC84E6006BD6E4 /* FollowPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D5DDE21CC84E6006BD6E4 /* FollowPlayerCell.swift */; };
+		CC4D5DE821D06F8F006BD6E4 /* VideoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC4D5DE721D06F8F006BD6E4 /* VideoList.plist */; };
+		CC4D5DEA21D0887B006BD6E4 /* FollowVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4D5DE921D0887B006BD6E4 /* FollowVideoModel.swift */; };
 		CC5C3AAE2133ACDD00A75538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5C3AAD2133ACDD00A75538 /* AppDelegate.swift */; };
 		CC5C3AB52133ACDE00A75538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5C3AB42133ACDE00A75538 /* Assets.xcassets */; };
 		CC5C3AB82133ACDE00A75538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5C3AB62133ACDE00A75538 /* LaunchScreen.storyboard */; };
@@ -107,6 +110,9 @@
 		CC3D24ED21C2224100D5D424 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		CC3D24EF21C2231800D5D424 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
 		CC3D24F121C2235400D5D424 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC4D5DDE21CC84E6006BD6E4 /* FollowPlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowPlayerCell.swift; sourceTree = "<group>"; };
+		CC4D5DE721D06F8F006BD6E4 /* VideoList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VideoList.plist; sourceTree = "<group>"; };
+		CC4D5DE921D0887B006BD6E4 /* FollowVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVideoModel.swift; sourceTree = "<group>"; };
 		CC5C3AAA2133ACDD00A75538 /* DouyuTVOfSun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouyuTVOfSun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5C3AAD2133ACDD00A75538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC5C3AB42133ACDE00A75538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,6 +214,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CC4D5DE621D06F66006BD6E4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CC4D5DE721D06F8F006BD6E4 /* VideoList.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		CC5C3AA12133ACDD00A75538 = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +243,7 @@
 		CC5C3AAC2133ACDD00A75538 /* DouyuTVOfSun */ = {
 			isa = PBXGroup;
 			children = (
+				CC4D5DE621D06F66006BD6E4 /* Resource */,
 				CC5C3AEF2136305300A75538 /* Class */,
 				CC5C3AAD2133ACDD00A75538 /* AppDelegate.swift */,
 				CC5C3AB42133ACDE00A75538 /* Assets.xcassets */,
@@ -328,6 +343,7 @@
 		CC5C3AF82136305300A75538 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CC4D5DE921D0887B006BD6E4 /* FollowVideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,6 +351,7 @@
 		CC5C3AF92136305300A75538 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CC4D5DDE21CC84E6006BD6E4 /* FollowPlayerCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -516,6 +533,11 @@
 				TargetAttributes = {
 					CC5C3AA92133ACDD00A75538 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -548,6 +570,7 @@
 				CC5C3B0A2136305400A75538 /* Home.storyboard in Resources */,
 				CC683375213E72C00077F070 /* HomeCollectionReusableView.xib in Resources */,
 				CC5C3AB82133ACDE00A75538 /* LaunchScreen.storyboard in Resources */,
+				CC4D5DE821D06F8F006BD6E4 /* VideoList.plist in Resources */,
 				CCAB2FF8213F694D00987C77 /* NormalCollectionViewCell.xib in Resources */,
 				CC5C3B0D2136305400A75538 /* Live.storyboard in Resources */,
 				CC0E52B321BE5F0C00147D6F /* CollectionGameCell.xib in Resources */,
@@ -573,9 +596,10 @@
 				"${PODS_ROOT}/Target Support Files/Pods-DouyuTVOfSun/Pods-DouyuTVOfSun-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${PODS_ROOT}/PLMediaStreamingKit/Pod/Library/PLMediaStreamingKit.framework",
-				"${PODS_ROOT}/PLMediaStreamingKit/Pod/Library/HappyDNS.framework",
-				"${PODS_ROOT}/PLPlayerKit/Pod/Library/PLPlayerKit.framework",
+				"${PODS_ROOT}/PLMediaStreamingKit/Pod/Library-Universal/PLMediaStreamingKit.framework",
+				"${PODS_ROOT}/PLMediaStreamingKit/Pod/Library-Universal/HappyDNS.framework",
+				"${PODS_ROOT}/PLPlayerKit/Pod/Library-Universal/PLPlayerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -584,6 +608,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLMediaStreamingKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HappyDNS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLPlayerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -628,6 +653,7 @@
 				CCAB3005213FEC4C00987C77 /* NetworkTool.swift in Sources */,
 				CC683371213E64470077F070 /* RecommendViewController.swift in Sources */,
 				CC5C3B0E2136305400A75538 /* MainViewController.swift in Sources */,
+				CC4D5DE021CC84E6006BD6E4 /* FollowPlayerCell.swift in Sources */,
 				CC3D24D321C0F00900D5D424 /* AmuseMenuViewCell.swift in Sources */,
 				CC3D24E421C11CE100D5D424 /* CustomNavigationController.swift in Sources */,
 				CC3D24E221C11A0400D5D424 /* RoomPlayerViewController.swift in Sources */,
@@ -657,6 +683,7 @@
 				CC5C3B1921363ED400A75538 /* Common.swift in Sources */,
 				CC5C3B112136309F00A75538 /* HomeViewController.swift in Sources */,
 				CC3A46C9214270420044371F /* RecommendViewModel.swift in Sources */,
+				CC4D5DEA21D0887B006BD6E4 /* FollowVideoModel.swift in Sources */,
 				CC3A46D221428EE60044371F /* AnchorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

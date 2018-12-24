@@ -9,7 +9,8 @@ target 'DouyuTVOfSun' do
 
 pod 'Alamofire'
 pod 'Kingfisher'
-pod 'PLMediaStreamingKit'
-pod 'PLPlayerKit'
+pod 'SnapKit'
+pod 'PLMediaStreamingKit', :podspec => 'https://raw.githubusercontent.com/pili-engineering/PLMediaStreamingKit/master/PLMediaStreamingKit-Universal.podspec'
+pod 'PLPlayerKit', :podspec => 'https://raw.githubusercontent.com/pili-engineering/PLPlayerKit/master/PLPlayerKit-Universal.podspec'
 
 end

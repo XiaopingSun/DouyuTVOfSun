@@ -29,7 +29,7 @@
         <!--关注-->
         <scene sceneID="yYQ-2D-qEP">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qe9-8j-21L" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qe9-8j-21L" customClass="CustomNavigationController" customModule="DouyuTVOfSun" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="关注" image="btn_live_normal" selectedImage="btn_live_selected" id="ztn-ed-MP6"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FWM-g4-wPH">

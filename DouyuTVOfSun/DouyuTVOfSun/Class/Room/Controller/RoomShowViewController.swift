@@ -57,6 +57,7 @@ class RoomShowViewController: UIViewController {
         super.viewDidLoad()
         
         setupUI()
+        addNotification()
         streamingSession.startCapture()
     }
     
@@ -110,6 +111,14 @@ class RoomShowViewController: UIViewController {
             sender.setTitle("start", for: .normal)
         }
     }
+    
+    @objc private func willResignActive() {
+        streamingSession.setPush(UIImage(named: "2channel_thumbImage"))
+    }
+    
+    @objc private func didBecomeActive() {
+        streamingSession.setPush(nil)
+    }
 }
 
 extension RoomShowViewController {
@@ -118,6 +127,13 @@ extension RoomShowViewController {
         view.addSubview(closeButton)
         view.addSubview(startPushButton)
         view.insertSubview(streamingSession.previewView, at: 0)
+    }
+}
+
+extension RoomShowViewController {
+    private func addNotification() {
+        NotificationCenter.default.addObserver(self, selector: #selector(willResignActive), name: .UIApplicationWillResignActive, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(didBecomeActive), name: .UIApplicationDidBecomeActive, object: nil)
     }
 }
 

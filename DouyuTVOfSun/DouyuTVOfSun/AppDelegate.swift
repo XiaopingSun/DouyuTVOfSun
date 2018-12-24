@@ -19,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UITabBar.appearance().tintColor = UIColor.orange
         PLStreamingEnv.initEnv()
+        PLStreamingEnv.enableFileLogging()
+        PLStreamingEnv.setLogLevel(.verbose)
         return true
     }
 
