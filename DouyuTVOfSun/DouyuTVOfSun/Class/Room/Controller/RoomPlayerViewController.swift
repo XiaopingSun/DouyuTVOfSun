@@ -10,7 +10,7 @@ import UIKit
 import PLPlayerKit
 import SnapKit
 
-private let isEnablePlayBackground: Bool = true
+private let isEnablePlayBackground: Bool = false
 
 class RoomPlayerViewController: UIViewController, UIGestureRecognizerDelegate {
     
@@ -115,8 +115,8 @@ class RoomPlayerViewController: UIViewController, UIGestureRecognizerDelegate {
         player.playerView?.removeFromSuperview()
         if isLive == false {
             if #available(iOS 10.0, *) {
-                timer?.invalidate()
-                timer = nil
+                    timer?.invalidate()
+                    timer = nil
             }
         }
     }
@@ -182,5 +182,27 @@ extension RoomPlayerViewController: PLPlayerDelegate {
             }
         }
         eventButton.isHidden = false
+    }
+    func playerWillBeginBackgroundTask(_ player: PLPlayer) {
+        if isEnablePlayBackground {
+            player.enableRender = false
+        } else {
+            if isLive {
+                player.stop()
+            } else {
+                player.pause()
+            }
+        }
+    }
+    func playerWillEndBackgroundTask(_ player: PLPlayer) {
+        if isEnablePlayBackground {
+            player.enableRender = true
+        } else {
+            if isLive {
+                player.play()
+            } else {
+                player.resume()
+            }
+        }
     }
 }
